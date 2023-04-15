@@ -1,0 +1,1286 @@
+DmConnection	Connections	Connection
+[NAME][100][1]	[CHANNEL][101][1]	[CHANNELUNIT][102][1]	[PARAMS][103][1]
+Name	Communication driver	Channel unit	Connection Parameters
+Common_PLC-1	SIMATIC S5 ETHERNET LAYER 4	S5-Transport (CP1413-1)	080006010023,OS2CO1FE,CO1OS2FE,OS2CO1RE,CO1OS2RE,FetchActive
+
+DmGroup	Groups	Group
+[NAME][100][1]	[CONNECTION][103][1]
+Name	Connection
+Alarms	Common_PLC-1
+C_T	Common_PLC-1
+DBD	Common_PLC-1
+DBR	Common_PLC-1
+horn	Common_PLC-1
+HYD	Common_PLC-1
+HydroGate	Common_PLC-1
+HYH	Common_PLC-1
+I_A	Common_PLC-1
+L_T	Common_PLC-1
+L_W	Common_PLC-1
+LSG	Common_PLC-1
+LUB	Common_PLC-1
+M_C	Common_PLC-1
+MCB	Common_PLC-1
+MHB	Common_PLC-1
+MHP	Common_PLC-1
+MHS	Common_PLC-1
+MHT	Common_PLC-1
+OMO	Common_PLC-1
+OSZ	Common_PLC-1
+PCC	Common_PLC-1
+PCP	Common_PLC-1
+PCS	Common_PLC-1
+PLC	Common_PLC-1
+R_T	Common_PLC-1
+Rotametr	Common_PLC-1
+RTR	Common_PLC-1
+SCA	Common_PLC-1
+SCC	Common_PLC-1
+SCD	Common_PLC-1
+SCM	Common_PLC-1
+SDP	Common_PLC-1
+Set_VC	Common_PLC-1
+SEX	Common_PLC-1
+STM	Common_PLC-1
+STP	Common_PLC-1
+STT	Common_PLC-1
+T_W	Common_PLC-1
+TCM	Common_PLC-1
+TDT	Common_PLC-1
+TPK	Common_PLC-1
+TST	Common_PLC-1
+WDH	Common_PLC-1
+WDR	Common_PLC-1
+
+DmTag	Tags	Tag
+[NAME][100][1]	[COMMENT][211][1]	[TYPE][101][1]	[LENGTH][105][1]	[FORMAT][106][1]	[CONNECTION][102][1]	[GROUP][104][1]	[ADDRPARAMS][108][1]	[SCALEVALID][112][2]	[SCALEPARAM1][113][1]	[SCALEPARAM2][114][1]	[SCALEPARAM3][115][1]	[SCALEPARAM4][116][1]	[MINLIMIT][117][1]	[MAXLIMIT][118][1]	[STARTVALUE][119][1]	[SUBSTVALUE][120][1]	[SUBSTVALUE_ON_MINLIMIT][121][2]	[SUBSTVALUE_ON_MAXLIMIT][122][2]	[SUBSTVALUE_AS_STARTVALUE][123][2]	[SUBSTVALUE_ON_ERROR][124][2]	[UPDATEMODE][111][2]	[SYNCHRONIZATION][125][2]	[RUNTIMEPERSISTENCE][126][2]	[PLCVARIABLENAME][209][1]	[PLCBLOCKNAME][210][1]
+Name	Comment	Data type	Length	Format adaptation	Connection	Group	Address	Linear scaling	AS value range from	AS value range to	OS value range from	OS value range to	Low limit	High limit	Start value	Substitute value	Substitute value at low limit	Substitute value at high limit	Substitute value as start value	Substitute value on connection errors	Computer-local	Synchronization	Runtime persistence	AS tag name	Name space
+Alarms_10		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW10	0									0	0	0	0	0	0	0		
+Alarms_11		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW11	0									0	0	0	0	0	0	0		
+Alarms_12		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW12	0									0	0	0	0	0	0	0		
+Alarms_13		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW13	0									0	0	0	0	0	0	0		
+Alarms_14		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW14	0									0	0	0	0	0	0	0		
+Alarms_15		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW15	0									0	0	0	0	0	0	0		
+Alarms_21		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW21	0									0	0	0	0	0	0	0		
+Alarms_22		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW22	0									0	0	0	0	0	0	0		
+Alarms_23		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW23	0									0	0	0	0	0	0	0		
+Alarms_24		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW24	0									0	0	0	0	0	0	0		
+Alarms_25		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW25	0									0	0	0	0	0	0	0		
+Alarms_26		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW26	0									0	0	0	0	0	0	0		
+Alarms_27		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW27	0									0	0	0	0	0	0	0		
+Alarms_28		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW28	0									0	0	0	0	0	0	0		
+Alarms_29		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW29	0									0	0	0	0	0	0	0		
+Alarms_30		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW30	0									0	0	0	0	0	0	0		
+Alarms_31		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW31	0									0	0	0	0	0	0	0		
+Alarms_35		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW35	0									0	0	0	0	0	0	0		
+Alarms_36		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW36	0									0	0	0	0	0	0	0		
+Alarms_50		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW50	0									0	0	0	0	0	0	0		
+Alarms_53		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW53	0									0	0	0	0	0	0	0		
+Alarms_54		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW54	0									0	0	0	0	0	0	0		
+Alarms_55		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW55	0									0	0	0	0	0	0	0		
+Alarms_56		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW56	0									0	0	0	0	0	0	0		
+Alarms_57		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW57	0									0	0	0	0	0	0	0		
+Alarms_58		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW58	0									0	0	0	0	0	0	0		
+Alarms_59		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW59	0									0	0	0	0	0	0	0		
+Alarms_65		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW65	0									0	0	0	0	0	0	0		
+Alarms_66		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW66	0									0	0	0	0	0	0	0		
+Alarms_67		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW67	0									0	0	0	0	0	0	0		
+Alarms_70		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW70	0									0	0	0	0	0	0	0		
+Alarms_73		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW73	0									0	0	0	0	0	0	0		
+Alarms_74		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW74	0									0	0	0	0	0	0	0		
+Alarms_75		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW75	0									0	0	0	0	0	0	0		
+Alarms_76		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW76	0									0	0	0	0	0	0	0		
+Alarms_77		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW77	0									0	0	0	0	0	0	0		
+Alarms_78		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW78	0									0	0	0	0	0	0	0		
+Alarms_79		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW79	0									0	0	0	0	0	0	0		
+Alarms_85		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW85	0									0	0	0	0	0	0	0		
+Alarms_86		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW86	0									0	0	0	0	0	0	0		
+Alarms_87		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW87	0									0	0	0	0	0	0	0		
+Alarms_90		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW90	0									0	0	0	0	0	0	0		
+Alarms_93		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW93	0									0	0	0	0	0	0	0		
+Alarms_94		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW94	0									0	0	0	0	0	0	0		
+Alarms_95		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW95	0									0	0	0	0	0	0	0		
+Alarms_96		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW96	0									0	0	0	0	0	0	0		
+Alarms_97		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW97	0									0	0	0	0	0	0	0		
+Alarms_98		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW98	0									0	0	0	0	0	0	0		
+Alarms_99		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW99	0									0	0	0	0	0	0	0		
+Alarms_105		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW105	0									0	0	0	0	0	0	0		
+Alarms_106		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW106	0									0	0	0	0	0	0	0		
+Alarms_107		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW107	0									0	0	0	0	0	0	0		
+Alarms_110		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW110	0									0	0	0	0	0	0	0		
+Alarms_113		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW113	0									0	0	0	0	0	0	0		
+Alarms_114		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW114	0									0	0	0	0	0	0	0		
+Alarms_115		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW115	0									0	0	0	0	0	0	0		
+Alarms_116		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW116	0									0	0	0	0	0	0	0		
+Alarms_117		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW117	0									0	0	0	0	0	0	0		
+Alarms_118		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW118	0									0	0	0	0	0	0	0		
+Alarms_119		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW119	0									0	0	0	0	0	0	0		
+Alarms_125		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW125	0									0	0	0	0	0	0	0		
+Alarms_126		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW126	0									0	0	0	0	0	0	0		
+Alarms_127		Unsigned 16-bit value	2	WordToUnsignedWord	Common_PLC-1	Alarms	DB225,DW127	0									0	0	0	0	0	0	0		
+Bruttogewicht_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	T_W	DB227,DW35	0									0	0	0	0	0	0	0		
+Bruttogewicht_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	T_W	DB227,DW36	0									0	0	0	0	0	0	0		
+Control_System_OK		Binary Tag	1		Common_PLC-1	PLC	 4 in  Word DB225,DW146	0									0	0	0	0	0	0	0		
+Emergency_stop_TPK_active		Binary Tag	1		Common_PLC-1	Alarms	 2 in  Word DB225,DW1	0									0	0	0	0	0	0	0		
+Hydraulic_Alarm_Close		Binary Tag	1		Common_PLC-1	HydroGate	 5 in  Word DB225,DW36	0									0	0	0	0	0	0	0		
+Hydraulic_Cast_Ready		Binary Tag	1		Common_PLC-1	HydroGate	 0 in  Word DB225,DW0	0									0	0	0	0	0	0	0		
+Hydraulic_Filter_loaded		Binary Tag	1		Common_PLC-1	HydroGate	 8 in  Word DB225,DW36	0									0	0	0	0	0	0	0		
+Hydraulic_Gate_1_Close_Fast		Binary Tag	1		Common_PLC-1	HydroGate	10 in  Word DB225,DW152	0									0	0	0	0	0	0	0		
+Hydraulic_Gate_1_Close_Slow		Binary Tag	1		Common_PLC-1	HydroGate	11 in  Word DB225,DW152	0									0	0	0	0	0	0	0		
+Hydraulic_Gate_1_Open_Fast		Binary Tag	1		Common_PLC-1	HydroGate	12 in  Word DB225,DW152	0									0	0	0	0	0	0	0		
+Hydraulic_Gate_1_Open_Slow		Binary Tag	1		Common_PLC-1	HydroGate	13 in  Word DB225,DW152	0									0	0	0	0	0	0	0		
+Hydraulic_Gate_2_Close_Fast		Binary Tag	1		Common_PLC-1	HydroGate	14 in  Word DB225,DW152	0									0	0	0	0	0	0	0		
+Hydraulic_Gate_2_Close_Slow		Binary Tag	1		Common_PLC-1	HydroGate	15 in  Word DB225,DW152	0									0	0	0	0	0	0	0		
+Hydraulic_Gate_2_Open_Fast		Binary Tag	1		Common_PLC-1	HydroGate	 0 in  Word DB225,DW153	0									0	0	0	0	0	0	0		
+Hydraulic_Gate_2_Open_Slow		Binary Tag	1		Common_PLC-1	HydroGate	 1 in  Word DB225,DW153	0									0	0	0	0	0	0	0		
+Hydraulic_Gate_Mode_AUTO		Binary Tag	1		Common_PLC-1	HydroGate	 7 in  Word DB225,DW153	0									0	0	0	0	0	0	0		
+Hydraulic_Gate_Mode_HAND		Binary Tag	1		Common_PLC-1	HydroGate	 8 in  Word DB225,DW153	0									0	0	0	0	0	0	0		
+Hydraulic_HEAT_ON		Binary Tag	1		Common_PLC-1	HydroGate	 5 in  Word DB225,DW153	0									0	0	0	0	0	0	0		
+Hydraulic_HEAT_Stoerung		Binary Tag	1		Common_PLC-1	HydroGate	11 in  Word DB225,DW36	0									0	0	0	0	0	0	0		
+Hydraulic_Mode_Local		Binary Tag	1		Common_PLC-1	HydroGate	 9 in  Word DB225,DW152	0									0	0	0	0	0	0	0		
+Hydraulic_Oil_Level_min		Binary Tag	1		Common_PLC-1	HydroGate	12 in  Word DB225,DW36	0									0	0	0	0	0	0	0		
+Hydraulic_ON		Binary Tag	1		Common_PLC-1	HydroGate	 8 in  Word DB225,DW152	0									0	0	0	0	0	0	0		
+Hydraulic_Pump_1_ON		Binary Tag	1		Common_PLC-1	HydroGate	 3 in  Word DB225,DW153	0									0	0	0	0	0	0	0		
+Hydraulic_Pump_1_Stoerung		Binary Tag	1		Common_PLC-1	HydroGate	 6 in  Word DB225,DW36	0									0	0	0	0	0	0	0		
+Hydraulic_Pump_2_ON		Binary Tag	1		Common_PLC-1	HydroGate	 4 in  Word DB225,DW153	0									0	0	0	0	0	0	0		
+Hydraulic_Pump_2_Stoerung		Binary Tag	1		Common_PLC-1	HydroGate	 7 in  Word DB225,DW36	0									0	0	0	0	0	0	0		
+Hydraulic_Set_OFF		Binary Tag	1		Common_PLC-1	HydroGate	 1 in  Word DB229,DW30	0									0	0	0	0	0	0	0		
+Hydraulic_Set_ON		Binary Tag	1		Common_PLC-1	HydroGate	 0 in  Word DB229,DW30	0									0	0	0	0	0	0	0		
+Hydraulic_System_Press_min		Binary Tag	1		Common_PLC-1	HydroGate	 4 in  Word DB225,DW36	0									0	0	0	0	0	0	0		
+Hydraulic_Temperature_max		Binary Tag	1		Common_PLC-1	HydroGate	 9 in  Word DB225,DW36	0									0	0	0	0	0	0	0		
+Hydraulic_Temperature_min		Binary Tag	1		Common_PLC-1	HydroGate	10 in  Word DB225,DW36	0									0	0	0	0	0	0	0		
+INSTRUM_LUFT_0_10BAR		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	I_A	DB151,DW2	0									0	0	0	0	0	0	0		
+knopka_nepreriv		Binary Tag	1		Common_PLC-1	TDT	 8 in  Word DB229,DW15	0									0	0	0	0	0	0	0		
+L1Argon		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	Rotametr	DB227,DW251	0									0	0	0	0	0	0	0		
+L2Argon		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	Rotametr	DB227,DW252	0									0	0	0	0	0	0	0		
+L3Argon		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	Rotametr	DB227,DW253	0									0	0	0	0	0	0	0		
+L4Argon		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	Rotametr	DB227,DW254	0									0	0	0	0	0	0	0		
+MLC_OpMode_Strand_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	OMO	DB227,DW96	0									0	0	0	0	0	0	0		
+MLC_OpMode_Strand_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	OMO	DB227,DW146	0									0	0	0	0	0	0	0		
+MLC_OpMode_Strand_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	OMO	DB227,DW196	0									0	0	0	0	0	0	0		
+MLC_OpMode_Strand_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	OMO	DB227,DW246	0									0	0	0	0	0	0	0		
+pbt-C_T-U-QUERTRANSPORT_1_AUTOMATIC		Binary Tag	1		Common_PLC-1	C_T	 4 in  Word DB225,DW150	0									0	0	0	0	0	0	0		
+pbt-C_T-U-QUERTRANSPORT_1_BEREIT		Binary Tag	1		Common_PLC-1	C_T	 5 in  Word DB225,DW150	0									0	0	0	0	0	0	0		
+pbt-C_T-U-QUERTRANSPORT_1_HAND		Binary Tag	1		Common_PLC-1	C_T	 3 in  Word DB225,DW150	0									0	0	0	0	0	0	0		
+pbt-C_T-U-QUERTRANSPORT_2_AUTOMATIC		Binary Tag	1		Common_PLC-1	C_T	 7 in  Word DB225,DW150	0									0	0	0	0	0	0	0		
+pbt-C_T-U-QUERTRANSPORT_2_BEREIT		Binary Tag	1		Common_PLC-1	C_T	 0 in  Word DB225,DW151	0									0	0	0	0	0	0	0		
+pbt-C_T-U-QUERTRANSPORT_2_HAND		Binary Tag	1		Common_PLC-1	C_T	 6 in  Word DB225,DW150	0									0	0	0	0	0	0	0		
+pbt-C_T-U-QUERTRANSPORTEN_DOPPELT		Binary Tag	1		Common_PLC-1	C_T	 2 in  Word DB225,DW150	0									0	0	0	0	0	0	0		
+pbt-C_T-U-QUERTRANSPORTEN_EINFACH		Binary Tag	1		Common_PLC-1	C_T	 9 in  Word DB225,DW150	0									0	0	0	0	0	0	0		
+pbt-DBD-A-KALTSTRANGTRENNUNG_STORUNG_STRANG_1		Binary Tag	1		Common_PLC-1	DBD	 1 in  Word DB225,DW54	0									0	0	0	0	0	0	0		
+pbt-DBD-A-KALTSTRANGTRENNUNG_STORUNG_STRANG_2		Binary Tag	1		Common_PLC-1	DBD	 1 in  Word DB225,DW74	0									0	0	0	0	0	0	0		
+pbt-DBD-A-KALTSTRANGTRENNUNG_STORUNG_STRANG_3		Binary Tag	1		Common_PLC-1	DBD	 1 in  Word DB225,DW94	0									0	0	0	0	0	0	0		
+pbt-DBD-A-KALTSTRANGTRENNUNG_STORUNG_STRANG_4		Binary Tag	1		Common_PLC-1	DBD	 1 in  Word DB225,DW114	0									0	0	0	0	0	0	0		
+pbt-DBD-U-TRENNROLLE_DOWN_STRANG_1		Binary Tag	1		Common_PLC-1	DBD	 2 in  Word DB225,DW171	0									0	0	0	0	0	0	0		
+pbt-DBD-U-TRENNROLLE_DOWN_STRANG_2		Binary Tag	1		Common_PLC-1	DBD	 2 in  Word DB225,DW191	0									0	0	0	0	0	0	0		
+pbt-DBD-U-TRENNROLLE_DOWN_STRANG_3		Binary Tag	1		Common_PLC-1	DBD	 2 in  Word DB225,DW211	0									0	0	0	0	0	0	0		
+pbt-DBD-U-TRENNROLLE_DOWN_STRANG_4		Binary Tag	1		Common_PLC-1	DBD	 2 in  Word DB225,DW231	0									0	0	0	0	0	0	0		
+pbt-DBD-U-TRENNROLLE_GEHOBEN_STRANG_1		Binary Tag	1		Common_PLC-1	DBD	 3 in  Word DB225,DW173	0									0	0	0	0	0	0	0		
+pbt-DBD-U-TRENNROLLE_GEHOBEN_STRANG_2		Binary Tag	1		Common_PLC-1	DBD	 3 in  Word DB225,DW193	0									0	0	0	0	0	0	0		
+pbt-DBD-U-TRENNROLLE_GEHOBEN_STRANG_3		Binary Tag	1		Common_PLC-1	DBD	 3 in  Word DB225,DW213	0									0	0	0	0	0	0	0		
+pbt-DBD-U-TRENNROLLE_GEHOBEN_STRANG_4		Binary Tag	1		Common_PLC-1	DBD	 3 in  Word DB225,DW233	0									0	0	0	0	0	0	0		
+pbt-DBD-U-TRENNROLLE_GESENKT_STRANG_1		Binary Tag	1		Common_PLC-1	DBD	 4 in  Word DB225,DW173	0									0	0	0	0	0	0	0		
+pbt-DBD-U-TRENNROLLE_GESENKT_STRANG_2		Binary Tag	1		Common_PLC-1	DBD	 4 in  Word DB225,DW193	0									0	0	0	0	0	0	0		
+pbt-DBD-U-TRENNROLLE_GESENKT_STRANG_3		Binary Tag	1		Common_PLC-1	DBD	 4 in  Word DB225,DW213	0									0	0	0	0	0	0	0		
+pbt-DBD-U-TRENNROLLE_GESENKT_STRANG_4		Binary Tag	1		Common_PLC-1	DBD	 4 in  Word DB225,DW233	0									0	0	0	0	0	0	0		
+pbt-DBR-U-KALTSTRANGHEBER_IN_POSITION_OBEN_STRANG_1		Binary Tag	1		Common_PLC-1	DBR	14 in  Word DB225,DW175	0									0	0	0	0	0	0	0		
+pbt-DBR-U-KALTSTRANGHEBER_IN_POSITION_OBEN_STRANG_2		Binary Tag	1		Common_PLC-1	DBR	14 in  Word DB225,DW195	0									0	0	0	0	0	0	0		
+pbt-DBR-U-KALTSTRANGHEBER_IN_POSITION_OBEN_STRANG_3		Binary Tag	1		Common_PLC-1	DBR	14 in  Word DB225,DW215	0									0	0	0	0	0	0	0		
+pbt-DBR-U-KALTSTRANGHEBER_IN_POSITION_OBEN_STRANG_4		Binary Tag	1		Common_PLC-1	DBR	14 in  Word DB225,DW235	0									0	0	0	0	0	0	0		
+pbt-DBR-U-KS-HEBER_GEHOBEN_STRANG_1		Binary Tag	1		Common_PLC-1	DBR	 6 in  Word DB225,DW173	0									0	0	0	0	0	0	0		
+pbt-DBR-U-KS-HEBER_GEHOBEN_STRANG_2		Binary Tag	1		Common_PLC-1	DBR	 6 in  Word DB225,DW193	0									0	0	0	0	0	0	0		
+pbt-DBR-U-KS-HEBER_GEHOBEN_STRANG_3		Binary Tag	1		Common_PLC-1	DBR	 6 in  Word DB225,DW213	0									0	0	0	0	0	0	0		
+pbt-DBR-U-KS-HEBER_GEHOBEN_STRANG_4		Binary Tag	1		Common_PLC-1	DBR	 6 in  Word DB225,DW233	0									0	0	0	0	0	0	0		
+pbt-DBR-U-KS-HEBER_GESENKT_STRANG_1		Binary Tag	1		Common_PLC-1	DBR	 7 in  Word DB225,DW173	0									0	0	0	0	0	0	0		
+pbt-DBR-U-KS-HEBER_GESENKT_STRANG_2		Binary Tag	1		Common_PLC-1	DBR	 7 in  Word DB225,DW193	0									0	0	0	0	0	0	0		
+pbt-DBR-U-KS-HEBER_GESENKT_STRANG_3		Binary Tag	1		Common_PLC-1	DBR	 7 in  Word DB225,DW213	0									0	0	0	0	0	0	0		
+pbt-DBR-U-KS-HEBER_GESENKT_STRANG_4		Binary Tag	1		Common_PLC-1	DBR	 7 in  Word DB225,DW233	0									0	0	0	0	0	0	0		
+pbt-HYD-D-HAUPTHYDRAULIK_AUS		Binary Tag	1		Common_PLC-1	HYD	 6 in  Word DB229,DW10	0									0	0	0	0	0	0	0		
+pbt-HYD-D-HAUPTHYDRAULIK_EIN		Binary Tag	1		Common_PLC-1	HYD	 5 in  Word DB229,DW10	0									0	0	0	0	0	0	0		
+pbt-HYD-U-HAUPT_HYDRAULIK_BEREIT		Binary Tag	1		Common_PLC-1	HYD	13 in  Word DB225,DW132	0									0	0	0	0	0	0	0		
+pbt-HYD-U-HAUPTHYDRAULIK_EIN		Binary Tag	1		Common_PLC-1	HYD	15 in  Word DB225,DW132	0									0	0	0	0	0	0	0		
+pbt-HYD-U-PUMPEN_ANWAHL_FUR_AUTOMATIK_OK		Binary Tag	1		Common_PLC-1	HYD	15 in  Word DB225,DW131	0									0	0	0	0	0	0	0		
+pbt-HYH-U-HUBBALKENHYDRAULIK_1_AKTIV		Binary Tag	1		Common_PLC-1	HYH	 1 in  Word DB225,DW152	0									0	0	0	0	0	0	0		
+pbt-HYH-U-HUBBALKENHYDRAULIK_1_FREIG_OS_37		Binary Tag	1		Common_PLC-1	HYH	 7 in  Word DB225,DW151	0									0	0	0	0	0	0	0		
+pbt-HYH-U-HUBBALKENHYDRAULIK_1_NICHT_AKTIV		Binary Tag	1		Common_PLC-1	HYH	 2 in  Word DB225,DW152	0									0	0	0	0	0	0	0		
+pbt-HYH-U-HUBBALKENHYDRAULIK_1_PUMPEN_ELEKTR_OK		Binary Tag	1		Common_PLC-1	HYH	 0 in  Word DB225,DW152	0									0	0	0	0	0	0	0		
+pbt-HYH-U-HUBBALKENHYDRAULIK_2_AKTIV		Binary Tag	1		Common_PLC-1	HYH	 5 in  Word DB225,DW152	0									0	0	0	0	0	0	0		
+pbt-HYH-U-HUBBALKENHYDRAULIK_2_FREIG_OS_37		Binary Tag	1		Common_PLC-1	HYH	 3 in  Word DB225,DW152	0									0	0	0	0	0	0	0		
+pbt-HYH-U-HUBBALKENHYDRAULIK_2_NICHT_AKTIV		Binary Tag	1		Common_PLC-1	HYH	 6 in  Word DB225,DW152	0									0	0	0	0	0	0	0		
+pbt-HYH-U-HUBBALKENHYDRAULIK_2_PUMPEN_ELEKTR_OK		Binary Tag	1		Common_PLC-1	HYH	 4 in  Word DB225,DW152	0									0	0	0	0	0	0	0		
+pbt-I_A-U-INSTLUFT_DRUCK_OK		Binary Tag	1		Common_PLC-1	I_A	 4 in  Word DB225,DW130	0									0	0	0	0	0	0	0		
+pbt-L_T-U-DREHTURM_ARM_1_IN_GPOS		Binary Tag	1		Common_PLC-1	L_T	 2 in  Word DB225,DW130	0									0	0	0	0	0	0	0		
+pbt-L_T-U-DREHTURM_ARM_2_IN_GPOS		Binary Tag	1		Common_PLC-1	L_T	 3 in  Word DB225,DW130	0									0	0	0	0	0	0	0		
+pbt-L_T-U-DREHTURM_HUB_ARM_IN_GIESSPOS_GEHOBEN		Binary Tag	1		Common_PLC-1	L_T	 0 in  Word DB225,DW130	0									0	0	0	0	0	0	0		
+pbt-L_T-U-PFANNENGEWICHT_SOLLWERTQUELLE		Binary Tag	1		Common_PLC-1	L_T	15 in  Word DB225,DW146	0									0	0	0	0	0	0	0		
+pbt-L_W-D-PFANNENTARAVORGABE_VON_OS_2_AUS		Binary Tag	1		Common_PLC-1	L_W	 1 in  Word DB229,DW10	0									0	0	0	0	0	0	0		
+pbt-L_W-D-PFANNENTARAVORGABE_VON_OS_2_EIN		Binary Tag	1		Common_PLC-1	L_W	 0 in  Word DB229,DW10	0									0	0	0	0	0	0	0		
+pbt-L_W-D-PFANNENWIEGUNG_NULLSTELLEN		Binary Tag	1		Common_PLC-1	L_W	 2 in  Word DB229,DW10	0									0	0	0	0	0	0	0		
+pbt-L_W-D-PFANNENWIEGUNG_RESETIEREN		Binary Tag	1		Common_PLC-1	L_W	 3 in  Word DB229,DW10	0									0	0	0	0	0	0	0		
+pbt-L_W-U-PFANNE_AUF_ARM_1_IN_GIESSPOS		Binary Tag	1		Common_PLC-1	L_W	 9 in  Word DB225,DW130	0									0	0	0	0	0	0	0		
+pbt-L_W-U-PFANNE_AUF_ARM_2_IN_GIESSPOS		Binary Tag	1		Common_PLC-1	L_W	10 in  Word DB225,DW130	0									0	0	0	0	0	0	0		
+pbt-LSG-U-BA_NIVEAU_REGELUNG-AUTO		Binary Tag	1		Common_PLC-1	LSG	 0 in  Word DB225,DW150	0									0	0	0	0	0	0	0		
+pbt-LSG-U-BA_NIVEAU_REGELUNG-HAND		Binary Tag	1		Common_PLC-1	LSG	 1 in  Word DB225,DW150	0									0	0	0	0	0	0	0		
+pbt-LSG-U-PFANNENSCHIEBER-HYDRAULIK_BEREIT		Binary Tag	1		Common_PLC-1	LSG	 7 in  Word DB225,DW152	0									0	0	0	0	0	0	0		
+pbt-LUB-A-SYSTEM_1_STOERUNG		Binary Tag	1		Common_PLC-1	LUB	 8 in  Word DB225,DW21	0									0	0	0	0	0	0	0		
+pbt-LUB-A-SYSTEM_2_STOERUNG		Binary Tag	1		Common_PLC-1	LUB	 9 in  Word DB225,DW21	0									0	0	0	0	0	0	0		
+pbt-LUB-A-SYSTEM_3_STOERUNG		Binary Tag	1		Common_PLC-1	LUB	10 in  Word DB225,DW21	0									0	0	0	0	0	0	0		
+pbt-LUB-D-SYSTEM_1_AUS		Binary Tag	1		Common_PLC-1	LUB	 1 in  Word DB229,DW11	0									0	0	0	0	0	0	0		
+pbt-LUB-D-SYSTEM_1_AUTO		Binary Tag	1		Common_PLC-1	LUB	 7 in  Word DB229,DW11	0									0	0	0	0	0	0	0		
+pbt-LUB-D-SYSTEM_1_EIN		Binary Tag	1		Common_PLC-1	LUB	 0 in  Word DB229,DW11	0									0	0	0	0	0	0	0		
+pbt-LUB-D-SYSTEM_1_HAND		Binary Tag	1		Common_PLC-1	LUB	 6 in  Word DB229,DW11	0									0	0	0	0	0	0	0		
+pbt-LUB-D-SYSTEM_2_AUS		Binary Tag	1		Common_PLC-1	LUB	 3 in  Word DB229,DW11	0									0	0	0	0	0	0	0		
+pbt-LUB-D-SYSTEM_2_AUTO		Binary Tag	1		Common_PLC-1	LUB	 9 in  Word DB229,DW11	0									0	0	0	0	0	0	0		
+pbt-LUB-D-SYSTEM_2_EIN		Binary Tag	1		Common_PLC-1	LUB	 2 in  Word DB229,DW11	0									0	0	0	0	0	0	0		
+pbt-LUB-D-SYSTEM_2_HAND		Binary Tag	1		Common_PLC-1	LUB	 8 in  Word DB229,DW11	0									0	0	0	0	0	0	0		
+pbt-LUB-D-SYSTEM_3_AUS		Binary Tag	1		Common_PLC-1	LUB	 5 in  Word DB229,DW11	0									0	0	0	0	0	0	0		
+pbt-LUB-D-SYSTEM_3_AUTO		Binary Tag	1		Common_PLC-1	LUB	11 in  Word DB229,DW11	0									0	0	0	0	0	0	0		
+pbt-LUB-D-SYSTEM_3_EIN		Binary Tag	1		Common_PLC-1	LUB	 4 in  Word DB229,DW11	0									0	0	0	0	0	0	0		
+pbt-LUB-D-SYSTEM_3_HAND		Binary Tag	1		Common_PLC-1	LUB	10 in  Word DB229,DW11	0									0	0	0	0	0	0	0		
+pbt-LUB-U-FETTSYSTEME_1-2-3_BEREIT		Binary Tag	1		Common_PLC-1	LUB	 1 in  Word DB225,DW146	0									0	0	0	0	0	0	0		
+pbt-LUB-U-SCHMIER_4_QUERTR_ANSPEIS_OK		Binary Tag	1		Common_PLC-1	LUB	 5 in  Word DB225,DW151	0									0	0	0	0	0	0	0		
+pbt-LUB-U-SCHMIERSYS_4_QUERTR_EIN		Binary Tag	1		Common_PLC-1	LUB	 6 in  Word DB225,DW151	0									0	0	0	0	0	0	0		
+pbt-LUB-U-SYSTEM_1_EIN		Binary Tag	1		Common_PLC-1	LUB	 8 in  Word DB225,DW140	0									0	0	0	0	0	0	0		
+pbt-LUB-U-SYSTEM_1_HANDBETR		Binary Tag	1		Common_PLC-1	LUB	11 in  Word DB225,DW140	0									0	0	0	0	0	0	0		
+pbt-LUB-U-SYSTEM_2_EIN		Binary Tag	1		Common_PLC-1	LUB	 9 in  Word DB225,DW140	0									0	0	0	0	0	0	0		
+pbt-LUB-U-SYSTEM_2_HANDBETR		Binary Tag	1		Common_PLC-1	LUB	12 in  Word DB225,DW140	0									0	0	0	0	0	0	0		
+pbt-LUB-U-SYSTEM_3_EIN		Binary Tag	1		Common_PLC-1	LUB	10 in  Word DB225,DW140	0									0	0	0	0	0	0	0		
+pbt-LUB-U-SYSTEM_3_HANDBETR		Binary Tag	1		Common_PLC-1	LUB	13 in  Word DB225,DW140	0									0	0	0	0	0	0	0		
+pbt-M_C-A-MASCHKUEHLUNG_DRUCK_BSM_BAHN_NICHT_OK		Binary Tag	1		Common_PLC-1	M_C	 1 in  Word DB225,DW24	0									0	0	0	0	0	0	0		
+pbt-M_C-A-MASCHKUEHLUNG_VENTILE_STOERUNG		Binary Tag	1		Common_PLC-1	M_C	15 in  Word DB225,DW23	0									0	0	0	0	0	0	0		
+pbt-M_C-D-MASCHKUEHLUNG_ALLGEMVENTHAUPLTG_ZU		Binary Tag	1		Common_PLC-1	M_C	 5 in  Word DB229,DW13	0									0	0	0	0	0	0	0		
+pbt-M_C-D-MASCHKUEHLUNG_ALLGEMVENTHAUPLTGAUF		Binary Tag	1		Common_PLC-1	M_C	 4 in  Word DB229,DW13	0									0	0	0	0	0	0	0		
+pbt-M_C-U-MASCHINEN_KLG_DRUCK_STRANG_1_OK		Binary Tag	1		Common_PLC-1	M_C	 0 in  Word DB225,DW176	0									0	0	0	0	0	0	0		
+pbt-M_C-U-MASCHINEN_KLG_DRUCK_STRANG_2_OK		Binary Tag	1		Common_PLC-1	M_C	 0 in  Word DB225,DW196	0									0	0	0	0	0	0	0		
+pbt-M_C-U-MASCHINEN_KLG_DRUCK_STRANG_3_OK		Binary Tag	1		Common_PLC-1	M_C	 0 in  Word DB225,DW216	0									0	0	0	0	0	0	0		
+pbt-M_C-U-MASCHINEN_KLG_DRUCK_STRANG_4_OK		Binary Tag	1		Common_PLC-1	M_C	 0 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-M_C-U-MASCHINENKUHLUNG_BEREIT		Binary Tag	1		Common_PLC-1	M_C	 2 in  Word DB225,DW146	0									0	0	0	0	0	0	0		
+pbt-M_C-U-MASCHKUEHL_DRUCK_BSM_OK		Binary Tag	1		Common_PLC-1	M_C	 4 in  Word DB225,DW143	0									0	0	0	0	0	0	0		
+pbt-M_C-U-MASCHKUEHL_DRUCK_HAUPTLEITUNG_OK		Binary Tag	1		Common_PLC-1	M_C	 2 in  Word DB225,DW143	0									0	0	0	0	0	0	0		
+pbt-M_C-U-MASCHKUEHLDRUCK_BSM_BAHN_OK		Binary Tag	1		Common_PLC-1	M_C	 3 in  Word DB225,DW143	0									0	0	0	0	0	0	0		
+pbt-M_C-U-MASCHKUEHLVENTIL_OFFEN		Binary Tag	1		Common_PLC-1	M_C	 0 in  Word DB225,DW143	0									0	0	0	0	0	0	0		
+pbt-M_C-U-MASCHKUEHLVENTIL_ZU		Binary Tag	1		Common_PLC-1	M_C	 1 in  Word DB225,DW143	0									0	0	0	0	0	0	0		
+pbt-M_C-U-ROLLGANGS_BA_SCHALTER_OS3_AUF_AUTOMATIK_STRANG_4		Binary Tag	1		Common_PLC-1	M_C	13 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-MCB-U-ROLLENINNENKLG_DURCHFL_OK_SEGM1_STRANG_1		Binary Tag	1		Common_PLC-1	MCB	10 in  Word DB225,DW176	0									0	0	0	0	0	0	0		
+pbt-MCB-U-ROLLENINNENKLG_DURCHFL_OK_SEGM1_STRANG_2		Binary Tag	1		Common_PLC-1	MCB	10 in  Word DB225,DW196	0									0	0	0	0	0	0	0		
+pbt-MCB-U-ROLLENINNENKLG_DURCHFL_OK_SEGM1_STRANG_3		Binary Tag	1		Common_PLC-1	MCB	10 in  Word DB225,DW216	0									0	0	0	0	0	0	0		
+pbt-MCB-U-ROLLENINNENKLG_DURCHFL_OK_SEGM1_STRANG_4		Binary Tag	1		Common_PLC-1	MCB	10 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-MCB-U-ROLLENINNENKLG_DURCHFL_OK_SEGM2-3_STRANG_1		Binary Tag	1		Common_PLC-1	MCB	11 in  Word DB225,DW176	0									0	0	0	0	0	0	0		
+pbt-MCB-U-ROLLENINNENKLG_DURCHFL_OK_SEGM2-3_STRANG_2		Binary Tag	1		Common_PLC-1	MCB	11 in  Word DB225,DW196	0									0	0	0	0	0	0	0		
+pbt-MCB-U-ROLLENINNENKLG_DURCHFL_OK_SEGM2-3_STRANG_3		Binary Tag	1		Common_PLC-1	MCB	11 in  Word DB225,DW216	0									0	0	0	0	0	0	0		
+pbt-MCB-U-ROLLENINNENKLG_DURCHFL_OK_SEGM2-3_STRANG_4		Binary Tag	1		Common_PLC-1	MCB	11 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-MCB-U-ROLLENINNENKLG_DURCHFL_OK_TREIBER1-6_STRANG_1		Binary Tag	1		Common_PLC-1	MCB	12 in  Word DB225,DW176	0									0	0	0	0	0	0	0		
+pbt-MCB-U-ROLLENINNENKLG_DURCHFL_OK_TREIBER1-6_STRANG_2		Binary Tag	1		Common_PLC-1	MCB	12 in  Word DB225,DW196	0									0	0	0	0	0	0	0		
+pbt-MCB-U-ROLLENINNENKLG_DURCHFL_OK_TREIBER1-6_STRANG_3		Binary Tag	1		Common_PLC-1	MCB	12 in  Word DB225,DW216	0									0	0	0	0	0	0	0		
+pbt-MCB-U-ROLLENINNENKLG_DURCHFL_OK_TREIBER1-6_STRANG_4		Binary Tag	1		Common_PLC-1	MCB	12 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-MCB-U-ROLLENINNENKUEHLUNG_BEREIT_STRANG_2		Binary Tag	1		Common_PLC-1	MCB	 4 in  Word DB225,DW199	0									0	0	0	0	0	0	0		
+pbt-MCB-U-ROLLENINNENKUEHLUNG_BEREIT_STRANG_3		Binary Tag	1		Common_PLC-1	MCB	 4 in  Word DB225,DW219	0									0	0	0	0	0	0	0		
+pbt-MCB-U-ROLLENINNENKUEHLUNG_BEREIT_STRANG_4		Binary Tag	1		Common_PLC-1	MCB	 4 in  Word DB225,DW239	0									0	0	0	0	0	0	0		
+pbt-MCB-U-ROLLENINNENKUHLUNG_BEREIT_STRANG_1		Binary Tag	1		Common_PLC-1	MCB	 4 in  Word DB225,DW179	0									0	0	0	0	0	0	0		
+pbt-MHB-A-HYDSPEISEDRUCK_MIN		Binary Tag	1		Common_PLC-1	MHB	 2 in  Word DB225,DW11	0									0	0	0	0	0	0	0		
+pbt-MHB-A-HYDSPEISEFILTER_VERLEGT		Binary Tag	1		Common_PLC-1	MHB	 3 in  Word DB225,DW11	0									0	0	0	0	0	0	0		
+pbt-MHB-A-HYDSPEISEP1_STOERUNG		Binary Tag	1		Common_PLC-1	MHB	 0 in  Word DB225,DW11	0									0	0	0	0	0	0	0		
+pbt-MHB-A-HYDSPEISEP2_STOERUNG		Binary Tag	1		Common_PLC-1	MHB	 1 in  Word DB225,DW11	0									0	0	0	0	0	0	0		
+pbt-MHB-U-PUMPE_1_AUTO_BEREITSCHAFT		Binary Tag	1		Common_PLC-1	MHB	 7 in  Word DB225,DW131	0									0	0	0	0	0	0	0		
+pbt-MHB-U-PUMPE_1_AUTO_GRUNDLAST		Binary Tag	1		Common_PLC-1	MHB	 6 in  Word DB225,DW131	0									0	0	0	0	0	0	0		
+pbt-MHB-U-PUMPE_1_VORORT		Binary Tag	1		Common_PLC-1	MHB	 5 in  Word DB225,DW131	0									0	0	0	0	0	0	0		
+pbt-MHB-U-PUMPE_2_AUTO_BEREITSCHAFT		Binary Tag	1		Common_PLC-1	MHB	10 in  Word DB225,DW131	0									0	0	0	0	0	0	0		
+pbt-MHB-U-PUMPE_2_AUTO_GRUNDLAST		Binary Tag	1		Common_PLC-1	MHB	 9 in  Word DB225,DW131	0									0	0	0	0	0	0	0		
+pbt-MHB-U-PUMPE_2_VORORT		Binary Tag	1		Common_PLC-1	MHB	 8 in  Word DB225,DW131	0									0	0	0	0	0	0	0		
+pbt-MHB-U-SAUGLEITUNG_1_OFFEN		Binary Tag	1		Common_PLC-1	MHB	 3 in  Word DB225,DW131	0									0	0	0	0	0	0	0		
+pbt-MHB-U-SAUGLEITUNG_2_OFFEN		Binary Tag	1		Common_PLC-1	MHB	 4 in  Word DB225,DW131	0									0	0	0	0	0	0	0		
+pbt-MHB-U-SPEISEP_1_RM_EIN		Binary Tag	1		Common_PLC-1	MHB	 0 in  Word DB225,DW131	0									0	0	0	0	0	0	0		
+pbt-MHB-U-SPEISEP_2_RM_EIN		Binary Tag	1		Common_PLC-1	MHB	 1 in  Word DB225,DW131	0									0	0	0	0	0	0	0		
+pbt-MHP-A-HYD_VERSORGUNGSDRUCK_MIN		Binary Tag	1		Common_PLC-1	MHP	 8 in  Word DB225,DW11	0									0	0	0	0	0	0	0		
+pbt-MHP-A-HYDDRUCKP1_STOERUNG		Binary Tag	1		Common_PLC-1	MHP	 5 in  Word DB225,DW11	0									0	0	0	0	0	0	0		
+pbt-MHP-A-HYDDRUCKP2_STOERUNG		Binary Tag	1		Common_PLC-1	MHP	 6 in  Word DB225,DW11	0									0	0	0	0	0	0	0		
+pbt-MHP-A-HYDDRUCKP3_STOERUNG		Binary Tag	1		Common_PLC-1	MHP	 7 in  Word DB225,DW11	0									0	0	0	0	0	0	0		
+pbt-MHP-A-HYDSTEUERFILTER_VERLEGT		Binary Tag	1		Common_PLC-1	MHP	10 in  Word DB225,DW11	0									0	0	0	0	0	0	0		
+pbt-MHP-A-HYDVERSORGUNGSDRUCK_MINMIN		Binary Tag	1		Common_PLC-1	MHP	13 in  Word DB225,DW11	0									0	0	0	0	0	0	0		
+pbt-MHP-U-DRUCKP1_RM_EIN		Binary Tag	1		Common_PLC-1	MHP	12 in  Word DB225,DW131	0									0	0	0	0	0	0	0		
+pbt-MHP-U-DRUCKP2_RM_EIN		Binary Tag	1		Common_PLC-1	MHP	13 in  Word DB225,DW131	0									0	0	0	0	0	0	0		
+pbt-MHP-U-DRUCKP3_RM_EIN		Binary Tag	1		Common_PLC-1	MHP	14 in  Word DB225,DW131	0									0	0	0	0	0	0	0		
+pbt-MHP-U-HAUPTHYDRAULIK_SYSTEMDRUCK_OK_STRANG_1		Binary Tag	1		Common_PLC-1	MHP	13 in  Word DB225,DW175	0									0	0	0	0	0	0	0		
+pbt-MHP-U-HAUPTHYDRAULIK_SYSTEMDRUCK_OK_STRANG_2		Binary Tag	1		Common_PLC-1	MHP	13 in  Word DB225,DW195	0									0	0	0	0	0	0	0		
+pbt-MHP-U-HAUPTHYDRAULIK_SYSTEMDRUCK_OK_STRANG_3		Binary Tag	1		Common_PLC-1	MHP	13 in  Word DB225,DW215	0									0	0	0	0	0	0	0		
+pbt-MHP-U-HAUPTHYDRAULIK_SYSTEMDRUCK_OK_STRANG_4		Binary Tag	1		Common_PLC-1	MHP	13 in  Word DB225,DW235	0									0	0	0	0	0	0	0		
+pbt-MHP-U-PUMPE_1_AUTO_BEREITSCHAFT		Binary Tag	1		Common_PLC-1	MHP	 5 in  Word DB225,DW132	0									0	0	0	0	0	0	0		
+pbt-MHP-U-PUMPE_1_AUTO_GRUNDLAST		Binary Tag	1		Common_PLC-1	MHP	 4 in  Word DB225,DW132	0									0	0	0	0	0	0	0		
+pbt-MHP-U-PUMPE_1_VORORT		Binary Tag	1		Common_PLC-1	MHP	 3 in  Word DB225,DW132	0									0	0	0	0	0	0	0		
+pbt-MHP-U-PUMPE_2_AUTO_BEREITSCHAFT		Binary Tag	1		Common_PLC-1	MHP	 8 in  Word DB225,DW132	0									0	0	0	0	0	0	0		
+pbt-MHP-U-PUMPE_2_AUTO_GRUNDLAST		Binary Tag	1		Common_PLC-1	MHP	 7 in  Word DB225,DW132	0									0	0	0	0	0	0	0		
+pbt-MHP-U-PUMPE_2_VORORT		Binary Tag	1		Common_PLC-1	MHP	 6 in  Word DB225,DW132	0									0	0	0	0	0	0	0		
+pbt-MHP-U-PUMPE_3_AUTO_BEREITSCHAFT		Binary Tag	1		Common_PLC-1	MHP	11 in  Word DB225,DW132	0									0	0	0	0	0	0	0		
+pbt-MHP-U-PUMPE_3_AUTO_GRUNDLAST		Binary Tag	1		Common_PLC-1	MHP	10 in  Word DB225,DW132	0									0	0	0	0	0	0	0		
+pbt-MHP-U-PUMPE_3_VORORT		Binary Tag	1		Common_PLC-1	MHP	 9 in  Word DB225,DW132	0									0	0	0	0	0	0	0		
+pbt-MHP-U-SAUGLEITUNG_1_OFFEN		Binary Tag	1		Common_PLC-1	MHP	 0 in  Word DB225,DW132	0									0	0	0	0	0	0	0		
+pbt-MHP-U-SAUGLEITUNG_2_OFFEN		Binary Tag	1		Common_PLC-1	MHP	 1 in  Word DB225,DW132	0									0	0	0	0	0	0	0		
+pbt-MHP-U-SAUGLEITUNG_3_OFFEN		Binary Tag	1		Common_PLC-1	MHP	 2 in  Word DB225,DW132	0									0	0	0	0	0	0	0		
+pbt-MHS-A-HYDBEFUELLSTATION_STOERUNG		Binary Tag	1		Common_PLC-1	MHS	 4 in  Word DB225,DW10	0									0	0	0	0	0	0	0		
+pbt-MHS-U-HYDBEFUELLPUMPE_RM_EIN		Binary Tag	1		Common_PLC-1	MHS	 5 in  Word DB225,DW130	0									0	0	0	0	0	0	0		
+pbt-MHT-A-HYDTANK_HEIZUNG_STOERUNG		Binary Tag	1		Common_PLC-1	MHT	12 in  Word DB225,DW10	0									0	0	0	0	0	0	0		
+pbt-MHT-A-HYDTANK_NIVEAU_MIN		Binary Tag	1		Common_PLC-1	MHT	10 in  Word DB225,DW10	0									0	0	0	0	0	0	0		
+pbt-MHT-A-HYDTANK_NIVEAU_TROCKENLAUF		Binary Tag	1		Common_PLC-1	MHT	11 in  Word DB225,DW10	0									0	0	0	0	0	0	0		
+pbt-MHT-A-HYDTANK_TEMP_MAX		Binary Tag	1		Common_PLC-1	MHT	14 in  Word DB225,DW10	0									0	0	0	0	0	0	0		
+pbt-MHT-A-HYDTANK_TEMP_MIN		Binary Tag	1		Common_PLC-1	MHT	13 in  Word DB225,DW10	0									0	0	0	0	0	0	0		
+pbt-MHT-U-HEIZUNG_EIN		Binary Tag	1		Common_PLC-1	MHT	14 in  Word DB225,DW130	0									0	0	0	0	0	0	0		
+pbt-MHT-U-HYDTANK_BEREIT		Binary Tag	1		Common_PLC-1	MHT	15 in  Word DB225,DW130	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_EINFAHREN_STRANG_1		Binary Tag	1		Common_PLC-1	OMO	 1 in  Word DB225,DW175	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_EINFAHREN_STRANG_2		Binary Tag	1		Common_PLC-1	OMO	 1 in  Word DB225,DW195	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_EINFAHREN_STRANG_3		Binary Tag	1		Common_PLC-1	OMO	 1 in  Word DB225,DW215	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_EINFAHREN_STRANG_4		Binary Tag	1		Common_PLC-1	OMO	 1 in  Word DB225,DW235	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_GIESSEN_STRANG_1		Binary Tag	1		Common_PLC-1	OMO	 2 in  Word DB225,DW175	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_GIESSEN_STRANG_2		Binary Tag	1		Common_PLC-1	OMO	 2 in  Word DB225,DW195	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_GIESSEN_STRANG_3		Binary Tag	1		Common_PLC-1	OMO	 2 in  Word DB225,DW215	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_GIESSEN_STRANG_4		Binary Tag	1		Common_PLC-1	OMO	 2 in  Word DB225,DW235	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_GIESSENDE_STRANG_1		Binary Tag	1		Common_PLC-1	OMO	 3 in  Word DB225,DW175	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_GIESSENDE_STRANG_2		Binary Tag	1		Common_PLC-1	OMO	 3 in  Word DB225,DW195	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_GIESSENDE_STRANG_3		Binary Tag	1		Common_PLC-1	OMO	 3 in  Word DB225,DW215	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_GIESSENDE_STRANG_4		Binary Tag	1		Common_PLC-1	OMO	 3 in  Word DB225,DW235	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_SCHALTER_OS1_AUF_KS-EINFAHREN_STRANG_1		Binary Tag	1		Common_PLC-1	OMO	 6 in  Word DB225,DW175	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_SCHALTER_OS1_AUF_KS-EINFAHREN_STRANG_2		Binary Tag	1		Common_PLC-1	OMO	 6 in  Word DB225,DW195	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_SCHALTER_OS1_AUF_KS-EINFAHREN_STRANG_3		Binary Tag	1		Common_PLC-1	OMO	 6 in  Word DB225,DW215	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_SCHALTER_OS1_AUF_KS-EINFAHREN_STRANG_4		Binary Tag	1		Common_PLC-1	OMO	 6 in  Word DB225,DW235	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_TIPPEN_STRANG_1		Binary Tag	1		Common_PLC-1	OMO	 7 in  Word DB225,DW175	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_TIPPEN_STRANG_2		Binary Tag	1		Common_PLC-1	OMO	 7 in  Word DB225,DW195	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_TIPPEN_STRANG_3		Binary Tag	1		Common_PLC-1	OMO	 7 in  Word DB225,DW215	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BA_TIPPEN_STRANG_4		Binary Tag	1		Common_PLC-1	OMO	 7 in  Word DB225,DW235	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BETRIEBSARTENSCHALTER_AUF_GIESSEN_STRANG_1		Binary Tag	1		Common_PLC-1	OMO	 8 in  Word DB225,DW175	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BETRIEBSARTENSCHALTER_AUF_GIESSEN_STRANG_2		Binary Tag	1		Common_PLC-1	OMO	 8 in  Word DB225,DW195	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BETRIEBSARTENSCHALTER_AUF_GIESSEN_STRANG_3		Binary Tag	1		Common_PLC-1	OMO	 8 in  Word DB225,DW215	0									0	0	0	0	0	0	0		
+pbt-OMO-U-BETRIEBSARTENSCHALTER_AUF_GIESSEN_STRANG_4		Binary Tag	1		Common_PLC-1	OMO	 8 in  Word DB225,DW235	0									0	0	0	0	0	0	0		
+pbt-OMO-U-GIESSBEREIT_STRANG_1		Binary Tag	1		Common_PLC-1	OMO	12 in  Word DB225,DW175	0									0	0	0	0	0	0	0		
+pbt-OMO-U-GIESSBEREIT_STRANG_2		Binary Tag	1		Common_PLC-1	OMO	12 in  Word DB225,DW195	0									0	0	0	0	0	0	0		
+pbt-OMO-U-GIESSBEREIT_STRANG_3		Binary Tag	1		Common_PLC-1	OMO	12 in  Word DB225,DW215	0									0	0	0	0	0	0	0		
+pbt-OMO-U-GIESSBEREIT_STRANG_4		Binary Tag	1		Common_PLC-1	OMO	12 in  Word DB225,DW235	0									0	0	0	0	0	0	0		
+pbt-OMO-U-KS-EINFAHREN_ALLE_VORBEDINGUNGEN_ERFUELLT_STRANG_4		Binary Tag	1		Common_PLC-1	OMO	15 in  Word DB225,DW235	0									0	0	0	0	0	0	0		
+pbt-OMO-U-KS-EINFAHREN_ALLE_VORBEDINGUNGEN_ERFULLT_STRANG_1		Binary Tag	1		Common_PLC-1	OMO	15 in  Word DB225,DW175	0									0	0	0	0	0	0	0		
+pbt-OMO-U-KS-EINFAHREN_ALLE_VORBEDINGUNGEN_ERFULLT_STRANG_2		Binary Tag	1		Common_PLC-1	OMO	15 in  Word DB225,DW195	0									0	0	0	0	0	0	0		
+pbt-OMO-U-KS-EINFAHREN_ALLE_VORBEDINGUNGEN_ERFULLT_STRANG_3		Binary Tag	1		Common_PLC-1	OMO	15 in  Word DB225,DW215	0									0	0	0	0	0	0	0		
+pbt-OSZ-A-OSZILLATION_STOERUNG_STRANG_4		Binary Tag	1		Common_PLC-1	OSZ	12 in  Word DB225,DW115	0									0	0	0	0	0	0	0		
+pbt-OSZ-A-OSZILLATION_STORUNG_STRANG_1		Binary Tag	1		Common_PLC-1	OSZ	12 in  Word DB225,DW55	0									0	0	0	0	0	0	0		
+pbt-OSZ-A-OSZILLATION_STORUNG_STRANG_2		Binary Tag	1		Common_PLC-1	OSZ	12 in  Word DB225,DW75	0									0	0	0	0	0	0	0		
+pbt-OSZ-A-OSZILLATION_STORUNG_STRANG_3		Binary Tag	1		Common_PLC-1	OSZ	12 in  Word DB225,DW95	0									0	0	0	0	0	0	0		
+pbt-OSZ-D-OSZILLATION_BA_HAND_STRANG_1		Binary Tag	1		Common_PLC-1	OSZ	 0 in  Word DB229,DW50	0									0	0	0	0	0	0	0		
+pbt-OSZ-D-OSZILLATION_BA_HAND_STRANG_2		Binary Tag	1		Common_PLC-1	OSZ	 0 in  Word DB229,DW70	0									0	0	0	0	0	0	0		
+pbt-OSZ-D-OSZILLATION_BA_HAND_STRANG_3		Binary Tag	1		Common_PLC-1	OSZ	 0 in  Word DB229,DW90	0									0	0	0	0	0	0	0		
+pbt-OSZ-D-OSZILLATION_BA_HAND_STRANG_4		Binary Tag	1		Common_PLC-1	OSZ	 0 in  Word DB229,DW110	0									0	0	0	0	0	0	0		
+pbt-OSZ-D-OSZILLATION_BA_LEVEL1_STRANG_1		Binary Tag	1		Common_PLC-1	OSZ	 1 in  Word DB229,DW50	0									0	0	0	0	0	0	0		
+pbt-OSZ-D-OSZILLATION_BA_LEVEL1_STRANG_2		Binary Tag	1		Common_PLC-1	OSZ	 1 in  Word DB229,DW70	0									0	0	0	0	0	0	0		
+pbt-OSZ-D-OSZILLATION_BA_LEVEL1_STRANG_3		Binary Tag	1		Common_PLC-1	OSZ	 1 in  Word DB229,DW90	0									0	0	0	0	0	0	0		
+pbt-OSZ-D-OSZILLATION_BA_LEVEL1_STRANG_4		Binary Tag	1		Common_PLC-1	OSZ	 1 in  Word DB229,DW110	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OSZILLATION_AUS_STRANG_1		Binary Tag	1		Common_PLC-1	OSZ	 2 in  Word DB225,DW176	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OSZILLATION_AUS_STRANG_2		Binary Tag	1		Common_PLC-1	OSZ	 2 in  Word DB225,DW196	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OSZILLATION_AUS_STRANG_3		Binary Tag	1		Common_PLC-1	OSZ	 2 in  Word DB225,DW216	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OSZILLATION_AUS_STRANG_4		Binary Tag	1		Common_PLC-1	OSZ	 2 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OSZILLATION_BA_HAND_STRANG_1		Binary Tag	1		Common_PLC-1	OSZ	 4 in  Word DB225,DW176	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OSZILLATION_BA_HAND_STRANG_2		Binary Tag	1		Common_PLC-1	OSZ	 4 in  Word DB225,DW196	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OSZILLATION_BA_HAND_STRANG_3		Binary Tag	1		Common_PLC-1	OSZ	 4 in  Word DB225,DW216	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OSZILLATION_BA_HAND_STRANG_4		Binary Tag	1		Common_PLC-1	OSZ	 4 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OSZILLATION_BA_LEVEL1_STRANG_1		Binary Tag	1		Common_PLC-1	OSZ	 5 in  Word DB225,DW176	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OSZILLATION_BA_LEVEL1_STRANG_2		Binary Tag	1		Common_PLC-1	OSZ	 5 in  Word DB225,DW196	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OSZILLATION_BA_LEVEL1_STRANG_3		Binary Tag	1		Common_PLC-1	OSZ	 5 in  Word DB225,DW216	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OSZILLATION_BA_LEVEL1_STRANG_4		Binary Tag	1		Common_PLC-1	OSZ	 5 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OSZILLATION_E_I_N_STRANG_1		Binary Tag	1		Common_PLC-1	OSZ	 3 in  Word DB225,DW176	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OSZILLATION_E_I_N_STRANG_2		Binary Tag	1		Common_PLC-1	OSZ	 3 in  Word DB225,DW196	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OSZILLATION_EIN_STRANG_3		Binary Tag	1		Common_PLC-1	OSZ	 3 in  Word DB225,DW216	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OSZILLATION_EIN_STRANG_4		Binary Tag	1		Common_PLC-1	OSZ	 3 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OZILLIEREINRICHTUNG_OK_STRANG_1		Binary Tag	1		Common_PLC-1	OSZ	 6 in  Word DB225,DW176	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OZILLIEREINRICHTUNG_OK_STRANG_2		Binary Tag	1		Common_PLC-1	OSZ	 6 in  Word DB225,DW196	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OZILLIEREINRICHTUNG_OK_STRANG_3		Binary Tag	1		Common_PLC-1	OSZ	 6 in  Word DB225,DW216	0									0	0	0	0	0	0	0		
+pbt-OSZ-U-OZILLIEREINRICHTUNG_OK_STRANG_4		Binary Tag	1		Common_PLC-1	OSZ	 6 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-PCC-A-ABSPERRKLAPPE_TANKAUSLAUF_NICHT_OFTEN		Binary Tag	1		Common_PLC-1	PCC	 7 in  Word DB225,DW22	0									0	0	0	0	0	0	0		
+pbt-PCC-A-ABSPERRKLAPPE_ZUNDERKANAL_NICHT_OFTEN		Binary Tag	1		Common_PLC-1	PCC	 8 in  Word DB225,DW22	0									0	0	0	0	0	0	0		
+pbt-PCC-A-AUSGLEICHSTANK_FUELLVENTIL_STOERUNG		Binary Tag	1		Common_PLC-1	PCC	12 in  Word DB225,DW21	0									0	0	0	0	0	0	0		
+pbt-PCC-A-KOKILLENEINLAUFDRUCK_MIN		Binary Tag	1		Common_PLC-1	PCC	 6 in  Word DB225,DW22	0									0	0	0	0	0	0	0		
+pbt-PCC-A-NOTKUEHLTANK_FUELLVENTIL_STOERUNG		Binary Tag	1		Common_PLC-1	PCC	11 in  Word DB225,DW21	0									0	0	0	0	0	0	0		
+pbt-PCC-A-NOTKUEHLUNG_IST_EIN		Binary Tag	1		Common_PLC-1	PCC	15 in  Word DB225,DW21	0									0	0	0	0	0	0	0		
+pbt-PCC-A-NOTKUEHLVENTIL_1_STOERUNG		Binary Tag	1		Common_PLC-1	PCC	13 in  Word DB225,DW21	0									0	0	0	0	0	0	0		
+pbt-PCC-A-NOTKUEHLVENTIL_2_(ZUNDERKANAL_STOERUNG		Binary Tag	1		Common_PLC-1	PCC	14 in  Word DB225,DW21	0									0	0	0	0	0	0	0		
+pbt-PCC-D-AUSGLEICHSTANK_FUELLVENTIL_AUF		Binary Tag	1		Common_PLC-1	PCC	 0 in  Word DB229,DW12	0									0	0	0	0	0	0	0		
+pbt-PCC-D-AUSGLEICHSTANK_FUELLVENTIL_AUTO		Binary Tag	1		Common_PLC-1	PCC	 4 in  Word DB229,DW12	0									0	0	0	0	0	0	0		
+pbt-PCC-D-AUSGLEICHSTANK_FUELLVENTIL_HAND		Binary Tag	1		Common_PLC-1	PCC	 5 in  Word DB229,DW12	0									0	0	0	0	0	0	0		
+pbt-PCC-D-AUSGLEICHSTANK_FUELLVENTIL_ZU		Binary Tag	1		Common_PLC-1	PCC	 1 in  Word DB229,DW12	0									0	0	0	0	0	0	0		
+pbt-PCC-D-NOTKUEHLTANK_FUELLVENTIL_AUF		Binary Tag	1		Common_PLC-1	PCC	12 in  Word DB229,DW11	0									0	0	0	0	0	0	0		
+pbt-PCC-D-NOTKUEHLTANK_FUELLVENTIL_AUTO		Binary Tag	1		Common_PLC-1	PCC	 2 in  Word DB229,DW12	0									0	0	0	0	0	0	0		
+pbt-PCC-D-NOTKUEHLTANK_FUELLVENTIL_HAND		Binary Tag	1		Common_PLC-1	PCC	 3 in  Word DB229,DW12	0									0	0	0	0	0	0	0		
+pbt-PCC-D-NOTKUEHLTANK_FUELLVENTIL_ZU		Binary Tag	1		Common_PLC-1	PCC	13 in  Word DB229,DW11	0									0	0	0	0	0	0	0		
+pbt-PCC-D-NOTKUEHLUNG_STOP		Binary Tag	1		Common_PLC-1	PCC	 6 in  Word DB229,DW12	0									0	0	0	0	0	0	0		
+pbt-PCC-D-NOTKUEHLUNG_WARNLAMPE-HORN_STOP		Binary Tag	1		Common_PLC-1	PCC	 7 in  Word DB229,DW12	0									0	0	0	0	0	0	0		
+pbt-PCC-U-AUSGLEICHSTANK_FUELLEN_AUTOBETR		Binary Tag	1		Common_PLC-1	PCC	 1 in  Word DB225,DW141	0									0	0	0	0	0	0	0		
+pbt-PCC-U-AUSGLEICHSTANK_FUELLVENTIL_GESCHLOSSEN		Binary Tag	1		Common_PLC-1	PCC	 7 in  Word DB225,DW141	0									0	0	0	0	0	0	0		
+pbt-PCC-U-AUSGLEICHSTANK_FUELLVENTIL_OFFEN		Binary Tag	1		Common_PLC-1	PCC	 6 in  Word DB225,DW141	0									0	0	0	0	0	0	0		
+pbt-PCC-U-NOTKUEHLTANK_FUELLEN_AUTOBETR		Binary Tag	1		Common_PLC-1	PCC	 0 in  Word DB225,DW141	0									0	0	0	0	0	0	0		
+pbt-PCC-U-NOTKUEHLTANK_FUELLVENTIL_GESCHLOSSEN		Binary Tag	1		Common_PLC-1	PCC	 5 in  Word DB225,DW141	0									0	0	0	0	0	0	0		
+pbt-PCC-U-NOTKUEHLTANK_FUELLVENTIL_OFFEN		Binary Tag	1		Common_PLC-1	PCC	 4 in  Word DB225,DW141	0									0	0	0	0	0	0	0		
+pbt-PCC-U-NOTKUEHLVENTIL_1_GESCHLOSSEN		Binary Tag	1		Common_PLC-1	PCC	 9 in  Word DB225,DW141	0									0	0	0	0	0	0	0		
+pbt-PCC-U-NOTKUEHLVENTIL_1_OFFEN		Binary Tag	1		Common_PLC-1	PCC	 8 in  Word DB225,DW141	0									0	0	0	0	0	0	0		
+pbt-PCC-U-NOTKUEHLVENTIL_2_(ZUNDERKANAL_GESCHLOSSEN		Binary Tag	1		Common_PLC-1	PCC	11 in  Word DB225,DW141	0									0	0	0	0	0	0	0		
+pbt-PCC-U-NOTKUEHLVENTIL_2_(ZUNDERKANAL_OFFEN		Binary Tag	1		Common_PLC-1	PCC	10 in  Word DB225,DW141	0									0	0	0	0	0	0	0		
+pbt-PCC-U-PRIMARKUHLUNG_BEREIT		Binary Tag	1		Common_PLC-1	PCC	 3 in  Word DB225,DW146	0									0	0	0	0	0	0	0		
+pbt-PCC-U-PUMPE_1_EIN		Binary Tag	1		Common_PLC-1	PCC	 0 in  Word DB225,DW140	0									0	0	0	0	0	0	0		
+pbt-PCC-U-PUMPE_1_VORORT		Binary Tag	1		Common_PLC-1	PCC	 1 in  Word DB225,DW140	0									0	0	0	0	0	0	0		
+pbt-PCC-U-PUMPE_1_WARTE		Binary Tag	1		Common_PLC-1	PCC	 2 in  Word DB225,DW140	0									0	0	0	0	0	0	0		
+pbt-PCC-U-PUMPE_2_EIN		Binary Tag	1		Common_PLC-1	PCC	 3 in  Word DB225,DW140	0									0	0	0	0	0	0	0		
+pbt-PCC-U-PUMPE_2_VORORT		Binary Tag	1		Common_PLC-1	PCC	 4 in  Word DB225,DW140	0									0	0	0	0	0	0	0		
+pbt-PCC-U-PUMPE_2_WARTE		Binary Tag	1		Common_PLC-1	PCC	 5 in  Word DB225,DW140	0									0	0	0	0	0	0	0		
+pbt-PCP-A-PUMPE_1_STOERUNG		Binary Tag	1		Common_PLC-1	PCP	 0 in  Word DB225,DW21	0									0	0	0	0	0	0	0		
+pbt-PCP-A-PUMPE_2_STOERUNG		Binary Tag	1		Common_PLC-1	PCP	 1 in  Word DB225,DW21	0									0	0	0	0	0	0	0		
+pbt-PCP-D-PUMPE_1_AUS		Binary Tag	1		Common_PLC-1	PCP	12 in  Word DB229,DW10	0									0	0	0	0	0	0	0		
+pbt-PCP-D-PUMPE_1_EIN		Binary Tag	1		Common_PLC-1	PCP	11 in  Word DB229,DW10	0									0	0	0	0	0	0	0		
+pbt-PCP-D-PUMPE_2_AUS		Binary Tag	1		Common_PLC-1	PCP	14 in  Word DB229,DW10	0									0	0	0	0	0	0	0		
+pbt-PCP-D-PUMPE_2_EIN		Binary Tag	1		Common_PLC-1	PCP	13 in  Word DB229,DW10	0									0	0	0	0	0	0	0		
+pbt-PCS-D-SWQUELLE_BEDIENER_ANWAHL_REGLER_KOKILLE_STRANG_1		Binary Tag	1		Common_PLC-1	PCS	 4 in  Word DB229,DW50	0									0	0	0	0	0	0	0		
+pbt-PCS-D-SWQUELLE_BEDIENER_ANWAHL_REGLER_KOKILLE_STRANG_2		Binary Tag	1		Common_PLC-1	PCS	 4 in  Word DB229,DW70	0									0	0	0	0	0	0	0		
+pbt-PCS-D-SWQUELLE_BEDIENER_ANWAHL_REGLER_KOKILLE_STRANG_3		Binary Tag	1		Common_PLC-1	PCS	 4 in  Word DB229,DW90	0									0	0	0	0	0	0	0		
+pbt-PCS-D-SWQUELLE_BEDIENER_ANWAHL_REGLER_KOKILLE_STRANG_4		Binary Tag	1		Common_PLC-1	PCS	 4 in  Word DB229,DW110	0									0	0	0	0	0	0	0		
+pbt-PCS-D-SWQUELLE_LEVEL_1_ANWAHL_REGLER_KOKILLE_STRANG_1		Binary Tag	1		Common_PLC-1	PCS	 9 in  Word DB229,DW50	0									0	0	0	0	0	0	0		
+pbt-PCS-D-SWQUELLE_LEVEL_1_ANWAHL_REGLER_KOKILLE_STRANG_2		Binary Tag	1		Common_PLC-1	PCS	 9 in  Word DB229,DW70	0									0	0	0	0	0	0	0		
+pbt-PCS-D-SWQUELLE_LEVEL_1_ANWAHL_REGLER_KOKILLE_STRANG_3		Binary Tag	1		Common_PLC-1	PCS	 9 in  Word DB229,DW90	0									0	0	0	0	0	0	0		
+pbt-PCS-D-SWQUELLE_LEVEL_1_ANWAHL_REGLER_KOKILLE_STRANG_4		Binary Tag	1		Common_PLC-1	PCS	 9 in  Word DB229,DW110	0									0	0	0	0	0	0	0		
+pbt-PCS-U-PRIMARKUHLUNG_DURCHFLUSS_MIN_STRANG_1		Binary Tag	1		Common_PLC-1	PCS	 7 in  Word DB225,DW176	0									0	0	0	0	0	0	0		
+pbt-PCS-U-PRIMARKUHLUNG_DURCHFLUSS_MIN_STRANG_2		Binary Tag	1		Common_PLC-1	PCS	 7 in  Word DB225,DW196	0									0	0	0	0	0	0	0		
+pbt-PCS-U-PRIMARKUHLUNG_DURCHFLUSS_MIN_STRANG_3		Binary Tag	1		Common_PLC-1	PCS	 7 in  Word DB225,DW216	0									0	0	0	0	0	0	0		
+pbt-PCS-U-PRIMARKUHLUNG_DURCHFLUSS_MIN_STRANG_4		Binary Tag	1		Common_PLC-1	PCS	 7 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-PCS-U-SWQUELLE_BEDIENER_ANZEIGE_REGLER_KOKILLE_STRANG_1		Binary Tag	1		Common_PLC-1	PCS	15 in  Word DB225,DW176	0									0	0	0	0	0	0	0		
+pbt-PCS-U-SWQUELLE_BEDIENER_ANZEIGE_REGLER_KOKILLE_STRANG_2		Binary Tag	1		Common_PLC-1	PCS	15 in  Word DB225,DW196	0									0	0	0	0	0	0	0		
+pbt-PCS-U-SWQUELLE_BEDIENER_ANZEIGE_REGLER_KOKILLE_STRANG_3		Binary Tag	1		Common_PLC-1	PCS	15 in  Word DB225,DW216	0									0	0	0	0	0	0	0		
+pbt-PCS-U-SWQUELLE_BEDIENER_ANZEIGE_REGLER_KOKILLE_STRANG_4		Binary Tag	1		Common_PLC-1	PCS	15 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-PCS-U-SWQUELLE_LEVEL_1_ANZEIGE_REGLER_KOKILLE_STRANG_1		Binary Tag	1		Common_PLC-1	PCS	 4 in  Word DB225,DW177	0									0	0	0	0	0	0	0		
+pbt-PCS-U-SWQUELLE_LEVEL_1_ANZEIGE_REGLER_KOKILLE_STRANG_2		Binary Tag	1		Common_PLC-1	PCS	 4 in  Word DB225,DW197	0									0	0	0	0	0	0	0		
+pbt-PCS-U-SWQUELLE_LEVEL_1_ANZEIGE_REGLER_KOKILLE_STRANG_3		Binary Tag	1		Common_PLC-1	PCS	 4 in  Word DB225,DW217	0									0	0	0	0	0	0	0		
+pbt-PCS-U-SWQUELLE_LEVEL_1_ANZEIGE_REGLER_KOKILLE_STRANG_4		Binary Tag	1		Common_PLC-1	PCS	 4 in  Word DB225,DW237	0									0	0	0	0	0	0	0		
+pbt-PLC-M-FALSCHE_SOLLWERTEINGABE_COMMON_PLC		Binary Tag	1		Common_PLC-1	PLC	 4 in  Word DB225,DW26	0									0	0	0	0	0	0	0		
+pbt-PLC-M-FALSCHE_SOLLWERTEINGABE_PLC_STRANG_1		Binary Tag	1		Common_PLC-1	PLC	 2 in  Word DB225,DW59	0									0	0	0	0	0	0	0		
+pbt-PLC-M-FALSCHE_SOLLWERTEINGABE_PLC_STRANG_2		Binary Tag	1		Common_PLC-1	PLC	 2 in  Word DB225,DW79	0									0	0	0	0	0	0	0		
+pbt-PLC-M-FALSCHE_SOLLWERTEINGABE_PLC_STRANG_3		Binary Tag	1		Common_PLC-1	PLC	 2 in  Word DB225,DW99	0									0	0	0	0	0	0	0		
+pbt-PLC-M-FALSCHE_SOLLWERTEINGABE_PLC_STRANG_4		Binary Tag	1		Common_PLC-1	PLC	 2 in  Word DB225,DW119	0									0	0	0	0	0	0	0		
+pbt-PLC-U-NOT-AUS_AUF_OS1_NICHT_BETATIGT_STRANG_1		Binary Tag	1		Common_PLC-1	PLC	 6 in  Word DB225,DW171	0									0	0	0	0	0	0	0		
+pbt-PLC-U-NOT-AUS_AUF_OS1_NICHT_BETATIGT_STRANG_2		Binary Tag	1		Common_PLC-1	PLC	 6 in  Word DB225,DW191	0									0	0	0	0	0	0	0		
+pbt-PLC-U-NOT-AUS_AUF_OS1_NICHT_BETATIGT_STRANG_3		Binary Tag	1		Common_PLC-1	PLC	 6 in  Word DB225,DW211	0									0	0	0	0	0	0	0		
+pbt-PLC-U-NOT-AUS_AUF_OS1_NICHT_BETATIGT_STRANG_4		Binary Tag	1		Common_PLC-1	PLC	 6 in  Word DB225,DW231	0									0	0	0	0	0	0	0		
+pbt-PLC-U-NOT-AUS_AUF_OS1_UND_OS3_NICHT_BETATIGT_STRANG_1		Binary Tag	1		Common_PLC-1	PLC	 1 in  Word DB225,DW176	0									0	0	0	0	0	0	0		
+pbt-PLC-U-NOT-AUS_AUF_OS1_UND_OS3_NICHT_BETATIGT_STRANG_2		Binary Tag	1		Common_PLC-1	PLC	 1 in  Word DB225,DW196	0									0	0	0	0	0	0	0		
+pbt-PLC-U-NOT-AUS_AUF_OS1_UND_OS3_NICHT_BETATIGT_STRANG_4		Binary Tag	1		Common_PLC-1	PLC	 1 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-PLC-U-NOT-AUS_AUF_OS1_UNO_OS3_NICHT_BETATIGT_STRANG_3		Binary Tag	1		Common_PLC-1	PLC	 1 in  Word DB225,DW216	0									0	0	0	0	0	0	0		
+pbt-PLC-U-NOT-AUS_AUF_OS3_NICHT_BETATIGT_STRANG_1		Binary Tag	1		Common_PLC-1	PLC	 7 in  Word DB225,DW171	0									0	0	0	0	0	0	0		
+pbt-PLC-U-NOT-AUS_AUF_OS3_NICHT_BETATIGT_STRANG_2		Binary Tag	1		Common_PLC-1	PLC	 7 in  Word DB225,DW191	0									0	0	0	0	0	0	0		
+pbt-PLC-U-NOT-AUS_AUF_OS3_NICHT_BETATIGT_STRANG_3		Binary Tag	1		Common_PLC-1	PLC	 7 in  Word DB225,DW211	0									0	0	0	0	0	0	0		
+pbt-PLC-U-NOT-AUS_AUF_OS3_NICHT_BETATIGT_STRANG_4		Binary Tag	1		Common_PLC-1	PLC	 7 in  Word DB225,DW231	0									0	0	0	0	0	0	0		
+pbt-PLC-U-STEUERSYSTEME_OK_STRANG_1		Binary Tag	1		Common_PLC-1	PLC	 5 in  Word DB225,DW179	0									0	0	0	0	0	0	0		
+pbt-PLC-U-STEUERSYSTEME_OK_STRANG_2		Binary Tag	1		Common_PLC-1	PLC	 5 in  Word DB225,DW199	0									0	0	0	0	0	0	0		
+pbt-PLC-U-STEUERSYSTEME_OK_STRANG_3		Binary Tag	1		Common_PLC-1	PLC	 5 in  Word DB225,DW219	0									0	0	0	0	0	0	0		
+pbt-PLC-U-STEUERSYSTEME_OK_STRANG_4		Binary Tag	1		Common_PLC-1	PLC	 5 in  Word DB225,DW239	0									0	0	0	0	0	0	0		
+pbt-R_T-U-AUSLAUFROLLGANGE_1-6_OK_STRANG_1		Binary Tag	1		Common_PLC-1	R_T	 0 in  Word DB225,DW175	0									0	0	0	0	0	0	0		
+pbt-R_T-U-AUSLAUFROLLGANGE_1-6_OK_STRANG_2		Binary Tag	1		Common_PLC-1	R_T	 0 in  Word DB225,DW195	0									0	0	0	0	0	0	0		
+pbt-R_T-U-AUSLAUFROLLGANGE_1-6_OK_STRANG_3		Binary Tag	1		Common_PLC-1	R_T	 0 in  Word DB225,DW215	0									0	0	0	0	0	0	0		
+pbt-R_T-U-AUSLAUFROLLGANGE_1-6_OK_STRANG_4		Binary Tag	1		Common_PLC-1	R_T	 0 in  Word DB225,DW235	0									0	0	0	0	0	0	0		
+pbt-R_T-U-AUSLAUFROLLGANGE_1-8_OK_STRANG_1		Binary Tag	1		Common_PLC-1	R_T	 3 in  Word DB225,DW179	0									0	0	0	0	0	0	0		
+pbt-R_T-U-AUSLAUFROLLGANGE_1-8_OK_STRANG_2		Binary Tag	1		Common_PLC-1	R_T	 3 in  Word DB225,DW199	0									0	0	0	0	0	0	0		
+pbt-R_T-U-AUSLAUFROLLGANGE_1-8_OK_STRANG_3		Binary Tag	1		Common_PLC-1	R_T	 3 in  Word DB225,DW219	0									0	0	0	0	0	0	0		
+pbt-R_T-U-AUSLAUFROLLGANGE_1-8_OK_STRANG_4		Binary Tag	1		Common_PLC-1	R_T	 3 in  Word DB225,DW239	0									0	0	0	0	0	0	0		
+pbt-R_T-U-ROLLGANGS_BA_SCHALTER_OS3_AUF_AUTOMATIK_STRANG_1		Binary Tag	1		Common_PLC-1	R_T	13 in  Word DB225,DW176	0									0	0	0	0	0	0	0		
+pbt-R_T-U-ROLLGANGS_BA_SCHALTER_OS3_AUF_AUTOMATIK_STRANG_2		Binary Tag	1		Common_PLC-1	R_T	13 in  Word DB225,DW196	0									0	0	0	0	0	0	0		
+pbt-R_T-U-ROLLGANGS_BA_SCHALTER_OS3_AUF_AUTOMATIK_STRANG_3		Binary Tag	1		Common_PLC-1	R_T	13 in  Word DB225,DW216	0									0	0	0	0	0	0	0		
+pbt-R_T-U-ROLLGANGS_BA_SCHALTER_OS3_AUF_AUTOMATIK_STRANG_4		Binary Tag	1		Common_PLC-1	R_T	13 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-RTR-U-ENTNAHME_RG_1_BEREIT		Binary Tag	1		Common_PLC-1	RTR	 1 in  Word DB225,DW151	0									0	0	0	0	0	0	0		
+pbt-RTR-U-ENTNAHME_RG_21_BEREIT		Binary Tag	1		Common_PLC-1	RTR	 3 in  Word DB225,DW151	0									0	0	0	0	0	0	0		
+pbt-RTR-U-ENTNAHME_RG_22_BEREIT		Binary Tag	1		Common_PLC-1	RTR	 4 in  Word DB225,DW151	0									0	0	0	0	0	0	0		
+pbt-RTR-U-ENTNAHMERG_EIN		Binary Tag	1		Common_PLC-1	RTR	 2 in  Word DB225,DW151	0									0	0	0	0	0	0	0		
+pbt-SCA-A-LUFTKOMPRESSOR_1_SUMMENSTOERUNG		Binary Tag	1		Common_PLC-1	SCA	12 in  Word DB225,DW23	0									0	0	0	0	0	0	0		
+pbt-SCA-A-LUFTKOMPRESSOR_2_SUMMENSTOERUNG		Binary Tag	1		Common_PLC-1	SCA	13 in  Word DB225,DW23	0									0	0	0	0	0	0	0		
+pbt-SCA-A-VENTIL_LUFTLEITUNG_OFFEN_STRANG_1		Binary Tag	1		Common_PLC-1	SCA	13 in  Word DB225,DW55	0									0	0	0	0	0	0	0		
+pbt-SCA-A-VENTIL_LUFTLEITUNG_OFFEN_STRANG_2		Binary Tag	1		Common_PLC-1	SCA	13 in  Word DB225,DW75	0									0	0	0	0	0	0	0		
+pbt-SCA-A-VENTIL_LUFTLEITUNG_OFFEN_STRANG_3		Binary Tag	1		Common_PLC-1	SCA	13 in  Word DB225,DW95	0									0	0	0	0	0	0	0		
+pbt-SCA-A-VENTIL_LUFTLEITUNG_OFFEN_STRANG_4		Binary Tag	1		Common_PLC-1	SCA	13 in  Word DB225,DW115	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SEKLUFTKOMRESSOR_1_START		Binary Tag	1		Common_PLC-1	SCA	 0 in  Word DB229,DW13	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SEKLUFTKOMRESSOR_1_STOP		Binary Tag	1		Common_PLC-1	SCA	 1 in  Word DB229,DW13	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SEKLUFTKOMRESSOR_2_START		Binary Tag	1		Common_PLC-1	SCA	 2 in  Word DB229,DW13	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SEKLUFTKOMRESSOR_2_STOP		Binary Tag	1		Common_PLC-1	SCA	 3 in  Word DB229,DW13	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SWQUELLE_BEDIENER_ANWAHL_REGLER_LUFT_ZO2_STRG_1		Binary Tag	1		Common_PLC-1	SCA	 5 in  Word DB229,DW50	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SWQUELLE_BEDIENER_ANWAHL_REGLER_LUFT_ZO2_STRG_2		Binary Tag	1		Common_PLC-1	SCA	 5 in  Word DB229,DW70	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SWQUELLE_BEDIENER_ANWAHL_REGLER_LUFT_ZO2_STRG_3		Binary Tag	1		Common_PLC-1	SCA	 5 in  Word DB229,DW90	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SWQUELLE_BEDIENER_ANWAHL_REGLER_LUFT_ZO2_STRG_4		Binary Tag	1		Common_PLC-1	SCA	 5 in  Word DB229,DW110	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SWQUELLE_BEDIENER_ANWAHL_REGLER_LUFT_ZO3_STRG_1		Binary Tag	1		Common_PLC-1	SCA	 6 in  Word DB229,DW50	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SWQUELLE_BEDIENER_ANWAHL_REGLER_LUFT_ZO3_STRG_2		Binary Tag	1		Common_PLC-1	SCA	 6 in  Word DB229,DW70	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SWQUELLE_BEDIENER_ANWAHL_REGLER_LUFT_ZO3_STRG_3		Binary Tag	1		Common_PLC-1	SCA	 6 in  Word DB229,DW90	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SWQUELLE_BEDIENER_ANWAHL_REGLER_LUFT_ZO3_STRG_4		Binary Tag	1		Common_PLC-1	SCA	 6 in  Word DB229,DW110	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SWQUELLE_LEVEL_1_ANWAHL_REGLER_LUFT_ZO2_STRG_1		Binary Tag	1		Common_PLC-1	SCA	10 in  Word DB229,DW50	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SWQUELLE_LEVEL_1_ANWAHL_REGLER_LUFT_ZO2_STRG_2		Binary Tag	1		Common_PLC-1	SCA	10 in  Word DB229,DW70	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SWQUELLE_LEVEL_1_ANWAHL_REGLER_LUFT_ZO2_STRG_3		Binary Tag	1		Common_PLC-1	SCA	10 in  Word DB229,DW90	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SWQUELLE_LEVEL_1_ANWAHL_REGLER_LUFT_ZO2_STRG_4		Binary Tag	1		Common_PLC-1	SCA	10 in  Word DB229,DW110	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SWQUELLE_LEVEL_1_ANWAHL_REGLER_LUFT_ZO3_STRG_1		Binary Tag	1		Common_PLC-1	SCA	11 in  Word DB229,DW50	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SWQUELLE_LEVEL_1_ANWAHL_REGLER_LUFT_ZO3_STRG_2		Binary Tag	1		Common_PLC-1	SCA	11 in  Word DB229,DW70	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SWQUELLE_LEVEL_1_ANWAHL_REGLER_LUFT_ZO3_STRG_3		Binary Tag	1		Common_PLC-1	SCA	11 in  Word DB229,DW90	0									0	0	0	0	0	0	0		
+pbt-SCA-D-SWQUELLE_LEVEL_1_ANWAHL_REGLER_LUFT_ZO3_STRG_4		Binary Tag	1		Common_PLC-1	SCA	11 in  Word DB229,DW110	0									0	0	0	0	0	0	0		
+pbt-SCA-M-VENTIL_HAUPTLEITUNG_OFFEN_STRANG_1		Binary Tag	1		Common_PLC-1	SCA	 9 in  Word DB225,DW65	0									0	0	0	0	0	0	0		
+pbt-SCA-M-VENTIL_HAUPTLEITUNG_OFFEN_STRANG_2		Binary Tag	1		Common_PLC-1	SCA	 9 in  Word DB225,DW85	0									0	0	0	0	0	0	0		
+pbt-SCA-M-VENTIL_HAUPTLEITUNG_OFFEN_STRANG_3		Binary Tag	1		Common_PLC-1	SCA	 9 in  Word DB225,DW105	0									0	0	0	0	0	0	0		
+pbt-SCA-M-VENTIL_HAUPTLEITUNG_OFFEN_STRANG_4		Binary Tag	1		Common_PLC-1	SCA	 9 in  Word DB225,DW125	0									0	0	0	0	0	0	0		
+pbt-SCA-U-HAUPTLEITUNG_LUFT_DRUCK_NICHT_OK		Binary Tag	1		Common_PLC-1	SCA	11 in  Word DB225,DW142	0									0	0	0	0	0	0	0		
+pbt-SCA-U-LUFTKOMPRESSOR_1_RM_EIN		Binary Tag	1		Common_PLC-1	SCA	12 in  Word DB225,DW142	0									0	0	0	0	0	0	0		
+pbt-SCA-U-LUFTKOMPRESSOR_2_RM_EIN		Binary Tag	1		Common_PLC-1	SCA	13 in  Word DB225,DW142	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SEKUNDAERKUEHLUNG_BEREIT_STRANG_1		Binary Tag	1		Common_PLC-1	SCA	14 in  Word DB225,DW176	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SWQUELLE_BEDIENER_ANZEIGE_REGLER_LUFT_ZO2_STRG_1		Binary Tag	1		Common_PLC-1	SCA	 0 in  Word DB225,DW177	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SWQUELLE_BEDIENER_ANZEIGE_REGLER_LUFT_ZO2_STRG_2		Binary Tag	1		Common_PLC-1	SCA	 0 in  Word DB225,DW197	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SWQUELLE_BEDIENER_ANZEIGE_REGLER_LUFT_ZO2_STRG_3		Binary Tag	1		Common_PLC-1	SCA	 0 in  Word DB225,DW217	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SWQUELLE_BEDIENER_ANZEIGE_REGLER_LUFT_ZO2_STRG_4		Binary Tag	1		Common_PLC-1	SCA	 0 in  Word DB225,DW237	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SWQUELLE_BEDIENER_ANZEIGE_REGLER_LUFT_ZO3_STRG_1		Binary Tag	1		Common_PLC-1	SCA	 1 in  Word DB225,DW177	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SWQUELLE_BEDIENER_ANZEIGE_REGLER_LUFT_ZO3_STRG_2		Binary Tag	1		Common_PLC-1	SCA	 1 in  Word DB225,DW197	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SWQUELLE_BEDIENER_ANZEIGE_REGLER_LUFT_ZO3_STRG_3		Binary Tag	1		Common_PLC-1	SCA	 1 in  Word DB225,DW217	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SWQUELLE_BEDIENER_ANZEIGE_REGLER_LUFT_ZO3_STRG_4		Binary Tag	1		Common_PLC-1	SCA	 1 in  Word DB225,DW237	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SWQUELLE_LEVEL_1_ANZEIGE_REGLER_LUFT_ZO2_STRG_1		Binary Tag	1		Common_PLC-1	SCA	 5 in  Word DB225,DW177	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SWQUELLE_LEVEL_1_ANZEIGE_REGLER_LUFT_ZO2_STRG_2		Binary Tag	1		Common_PLC-1	SCA	 5 in  Word DB225,DW197	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SWQUELLE_LEVEL_1_ANZEIGE_REGLER_LUFT_ZO2_STRG_3		Binary Tag	1		Common_PLC-1	SCA	 5 in  Word DB225,DW217	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SWQUELLE_LEVEL_1_ANZEIGE_REGLER_LUFT_ZO2_STRG_4		Binary Tag	1		Common_PLC-1	SCA	 5 in  Word DB225,DW237	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SWQUELLE_LEVEL_1_ANZEIGE_REGLER_LUFT_ZO3_STRG_1		Binary Tag	1		Common_PLC-1	SCA	 6 in  Word DB225,DW177	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SWQUELLE_LEVEL_1_ANZEIGE_REGLER_LUFT_ZO3_STRG_2		Binary Tag	1		Common_PLC-1	SCA	 6 in  Word DB225,DW197	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SWQUELLE_LEVEL_1_ANZEIGE_REGLER_LUFT_ZO3_STRG_3		Binary Tag	1		Common_PLC-1	SCA	 6 in  Word DB225,DW217	0									0	0	0	0	0	0	0		
+pbt-SCA-U-SWQUELLE_LEVEL_1_ANZEIGE_REGLER_LUFT_ZO3_STRG_4		Binary Tag	1		Common_PLC-1	SCA	 6 in  Word DB225,DW237	0									0	0	0	0	0	0	0		
+pbt-SCC-A-NOTKUEHLTANK_FUELLVENTIL_STOERUNG		Binary Tag	1		Common_PLC-1	SCC	11 in  Word DB225,DW22	0									0	0	0	0	0	0	0		
+pbt-SCC-A-NOTKUEHLVENTIL_STOERUNG		Binary Tag	1		Common_PLC-1	SCC	12 in  Word DB225,DW22	0									0	0	0	0	0	0	0		
+pbt-SCC-D-NOTKUEHLTANK_FUELLVENTIL_AUF		Binary Tag	1		Common_PLC-1	SCC	 8 in  Word DB229,DW12	0									0	0	0	0	0	0	0		
+pbt-SCC-D-NOTKUEHLTANK_FUELLVENTIL_AUTO		Binary Tag	1		Common_PLC-1	SCC	10 in  Word DB229,DW12	0									0	0	0	0	0	0	0		
+pbt-SCC-D-NOTKUEHLTANK_FUELLVENTIL_HAND		Binary Tag	1		Common_PLC-1	SCC	11 in  Word DB229,DW12	0									0	0	0	0	0	0	0		
+pbt-SCC-D-NOTKUEHLTANK_FUELLVENTIL_ZU		Binary Tag	1		Common_PLC-1	SCC	 9 in  Word DB229,DW12	0									0	0	0	0	0	0	0		
+pbt-SCC-D-NOTKUEHLUNG_START		Binary Tag	1		Common_PLC-1	SCC	12 in  Word DB229,DW12	0									0	0	0	0	0	0	0		
+pbt-SCC-D-NOTKUEHLUNG_STOP		Binary Tag	1		Common_PLC-1	SCC	13 in  Word DB229,DW12	0									0	0	0	0	0	0	0		
+pbt-SCC-U-HAUPTLEITUNG_DRUCK_OK		Binary Tag	1		Common_PLC-1	SCC	 3 in  Word DB225,DW142	0									0	0	0	0	0	0	0		
+pbt-SCC-U-NOTKUEHLLEITUNG_NICHT_OFFEN		Binary Tag	1		Common_PLC-1	SCC	 9 in  Word DB225,DW142	0									0	0	0	0	0	0	0		
+pbt-SCC-U-NOTKUEHLTANK_FUELLVENTIL_AUTOBETR		Binary Tag	1		Common_PLC-1	SCC	12 in  Word DB225,DW141	0									0	0	0	0	0	0	0		
+pbt-SCC-U-NOTKUEHLTANK_FUELLVENTIL_GESCHLOSSEN		Binary Tag	1		Common_PLC-1	SCC	14 in  Word DB225,DW141	0									0	0	0	0	0	0	0		
+pbt-SCC-U-NOTKUEHLTANK_FUELLVENTIL_OFFEN		Binary Tag	1		Common_PLC-1	SCC	13 in  Word DB225,DW141	0									0	0	0	0	0	0	0		
+pbt-SCC-U-NOTKUEHLVENTIL_GESCHLOSSEN		Binary Tag	1		Common_PLC-1	SCC	 0 in  Word DB225,DW142	0									0	0	0	0	0	0	0		
+pbt-SCC-U-NOTKUEHLVENTIL_OFFEN		Binary Tag	1		Common_PLC-1	SCC	15 in  Word DB225,DW141	0									0	0	0	0	0	0	0		
+pbt-SCC-U-RUECKSPUELFILTER_BYPASSLEITUNG_ZU		Binary Tag	1		Common_PLC-1	SCC	 1 in  Word DB225,DW142	0									0	0	0	0	0	0	0		
+pbt-SCC-U-RUECKSPUELFILTER_NICHT_VERLEGT		Binary Tag	1		Common_PLC-1	SCC	 7 in  Word DB225,DW142	0									0	0	0	0	0	0	0		
+pbt-SCC-U-SEKUNDAR_KUHLUNG_BEREIT_ALLGEMEIN		Binary Tag	1		Common_PLC-1	SCC	13 in  Word DB225,DW146	0									0	0	0	0	0	0	0		
+pbt-SCC-U-SEKUNDAR_KUHLUNG_LUFT_BEREIT_ALLGEMEIN		Binary Tag	1		Common_PLC-1	SCC	14 in  Word DB225,DW146	0									0	0	0	0	0	0	0		
+pbt-SCC-U-SIEBFILTER_BYPASSLEITUNG_ZU		Binary Tag	1		Common_PLC-1	SCC	 2 in  Word DB225,DW142	0									0	0	0	0	0	0	0		
+pbt-SCC-U-SIEBFILTER_NICHT_VERLEGT		Binary Tag	1		Common_PLC-1	SCC	 8 in  Word DB225,DW142	0									0	0	0	0	0	0	0		
+pbt-SCC-U-VORLAUFTEMPEERATUR_OK		Binary Tag	1		Common_PLC-1	SCC	 4 in  Word DB225,DW142	0									0	0	0	0	0	0	0		
+pbt-SCC-U-ZUNDERSPUELUNG_KLAPPE_OFFEN		Binary Tag	1		Common_PLC-1	SCC	 5 in  Word DB225,DW142	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_1_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	 9 in  Word DB225,DW177	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_1_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	10 in  Word DB225,DW177	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_1_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	10 in  Word DB225,DW197	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_1_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	10 in  Word DB225,DW237	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_1_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	 8 in  Word DB225,DW177	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_1_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	 8 in  Word DB225,DW237	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_2_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	12 in  Word DB225,DW177	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_2_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	12 in  Word DB225,DW197	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_2_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	12 in  Word DB225,DW217	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_2_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	12 in  Word DB225,DW237	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_2_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	13 in  Word DB225,DW177	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_2_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	13 in  Word DB225,DW197	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_2_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	13 in  Word DB225,DW217	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_2_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	13 in  Word DB225,DW237	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_2_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	11 in  Word DB225,DW177	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_2_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	11 in  Word DB225,DW197	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_2_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	11 in  Word DB225,DW217	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_2_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	11 in  Word DB225,DW237	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_3_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	15 in  Word DB225,DW177	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_3_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	15 in  Word DB225,DW197	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_3_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	15 in  Word DB225,DW217	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_3_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	15 in  Word DB225,DW237	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_3_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	 0 in  Word DB225,DW178	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_3_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	 0 in  Word DB225,DW198	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_3_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	 0 in  Word DB225,DW218	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_3_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	 0 in  Word DB225,DW238	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_3_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	14 in  Word DB225,DW177	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_3_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	14 in  Word DB225,DW197	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_3_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	14 in  Word DB225,DW217	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_3_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	14 in  Word DB225,DW237	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_4_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	 2 in  Word DB225,DW178	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_4_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	 2 in  Word DB225,DW198	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_4_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	 2 in  Word DB225,DW218	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_4_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	 2 in  Word DB225,DW238	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_4_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	 3 in  Word DB225,DW178	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_4_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	 3 in  Word DB225,DW198	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_4_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	 3 in  Word DB225,DW218	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_4_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	 3 in  Word DB225,DW238	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_4_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	 1 in  Word DB225,DW178	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_4_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	 1 in  Word DB225,DW198	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_4_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	 1 in  Word DB225,DW218	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_4_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	 1 in  Word DB225,DW238	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_5_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	 5 in  Word DB225,DW178	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_5_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	 5 in  Word DB225,DW198	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_5_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	 5 in  Word DB225,DW218	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_5_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	 5 in  Word DB225,DW238	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_5_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	 6 in  Word DB225,DW178	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_5_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	 6 in  Word DB225,DW198	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_5_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	 6 in  Word DB225,DW218	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_5_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	 6 in  Word DB225,DW238	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_5_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	 4 in  Word DB225,DW178	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_5_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	 4 in  Word DB225,DW198	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_5_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	 4 in  Word DB225,DW218	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_5_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	 4 in  Word DB225,DW238	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_6_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	 8 in  Word DB225,DW178	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_6_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	 8 in  Word DB225,DW198	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_6_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	 8 in  Word DB225,DW218	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_6_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	 8 in  Word DB225,DW238	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_6_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	 9 in  Word DB225,DW178	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_6_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	 9 in  Word DB225,DW198	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_6_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	 9 in  Word DB225,DW218	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_6_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	 9 in  Word DB225,DW238	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_6_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_1		Binary Tag	1		Common_PLC-1	SCD	 7 in  Word DB225,DW178	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_6_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	 7 in  Word DB225,DW198	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_6_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	 7 in  Word DB225,DW218	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER_6_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	 7 in  Word DB225,DW238	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER1_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	 9 in  Word DB225,DW197	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER1_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	 9 in  Word DB225,DW217	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER1_ANSTELLUNG_GESCHL_KS-DRUCK_STRANG_4		Binary Tag	1		Common_PLC-1	SCD	 9 in  Word DB225,DW237	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER1_ANSTELLUNG_GESCHL_WS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	10 in  Word DB225,DW217	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER1_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_2		Binary Tag	1		Common_PLC-1	SCD	 8 in  Word DB225,DW197	0									0	0	0	0	0	0	0		
+pbt-SCD-U-TREIBER1_ANSTELLUNG_OFFEN_KS-DRUCK_STRANG_3		Binary Tag	1		Common_PLC-1	SCD	 8 in  Word DB225,DW217	0									0	0	0	0	0	0	0		
+pbt-SCM-D-KK_WERTE_ANZEIGEN		Binary Tag	1		Common_PLC-1	SCM	 6 in  Word DB229,DW15	0									0	0	0	0	0	0	0		
+pbt-SCM-D-KK_WERTE_UBERNEHMEN		Binary Tag	1		Common_PLC-1	SCM	 7 in  Word DB229,DW15	0									0	0	0	0	0	0	0		
+pbt-SCM-D-QUALNUMMER_QUELLE_COMPUTER_ANWAHL_STRANG_1		Binary Tag	1		Common_PLC-1	SCM	 2 in  Word DB229,DW50	0									0	0	0	0	0	0	0		
+pbt-SCM-D-QUALNUMMER_QUELLE_COMPUTER_ANWAHL_STRANG_2		Binary Tag	1		Common_PLC-1	SCM	 2 in  Word DB229,DW70	0									0	0	0	0	0	0	0		
+pbt-SCM-D-QUALNUMMER_QUELLE_COMPUTER_ANWAHL_STRANG_3		Binary Tag	1		Common_PLC-1	SCM	 2 in  Word DB229,DW90	0									0	0	0	0	0	0	0		
+pbt-SCM-D-QUALNUMMER_QUELLE_COMPUTER_ANWAHL_STRANG_4		Binary Tag	1		Common_PLC-1	SCM	 2 in  Word DB229,DW110	0									0	0	0	0	0	0	0		
+pbt-SCM-D-QUALNUMMER_QUELLE_LEVEL_1_ANWAHL_STRANG_1		Binary Tag	1		Common_PLC-1	SCM	 3 in  Word DB229,DW50	0									0	0	0	0	0	0	0		
+pbt-SCM-D-QUALNUMMER_QUELLE_LEVEL_1_ANWAHL_STRANG_2		Binary Tag	1		Common_PLC-1	SCM	 3 in  Word DB229,DW70	0									0	0	0	0	0	0	0		
+pbt-SCM-D-QUALNUMMER_QUELLE_LEVEL_1_ANWAHL_STRANG_3		Binary Tag	1		Common_PLC-1	SCM	 3 in  Word DB229,DW90	0									0	0	0	0	0	0	0		
+pbt-SCM-D-QUALNUMMER_QUELLE_LEVEL_1_ANWAHL_STRANG_4		Binary Tag	1		Common_PLC-1	SCM	 3 in  Word DB229,DW110	0									0	0	0	0	0	0	0		
+pbt-SCM-D-SWQUELLE_BEDIENER_ANWAHL_REGLER_WA_ZO1-3_STRG_1		Binary Tag	1		Common_PLC-1	SCM	 7 in  Word DB229,DW50	0									0	0	0	0	0	0	0		
+pbt-SCM-D-SWQUELLE_BEDIENER_ANWAHL_REGLER_WA_ZO1-3_STRG_2		Binary Tag	1		Common_PLC-1	SCM	 7 in  Word DB229,DW70	0									0	0	0	0	0	0	0		
+pbt-SCM-D-SWQUELLE_BEDIENER_ANWAHL_REGLER_WA_ZO1-3_STRG_3		Binary Tag	1		Common_PLC-1	SCM	 7 in  Word DB229,DW90	0									0	0	0	0	0	0	0		
+pbt-SCM-D-SWQUELLE_BEDIENER_ANWAHL_REGLER_WA_ZO1-3_STRG_4		Binary Tag	1		Common_PLC-1	SCM	 7 in  Word DB229,DW110	0									0	0	0	0	0	0	0		
+pbt-SCM-D-SWQUELLE_COMPUTER_ANWAHL_REGLER_WA_ZO1-3_STRG_1		Binary Tag	1		Common_PLC-1	SCM	 8 in  Word DB229,DW50	0									0	0	0	0	0	0	0		
+pbt-SCM-D-SWQUELLE_COMPUTER_ANWAHL_REGLER_WA_ZO1-3_STRG_2		Binary Tag	1		Common_PLC-1	SCM	 8 in  Word DB229,DW70	0									0	0	0	0	0	0	0		
+pbt-SCM-D-SWQUELLE_COMPUTER_ANWAHL_REGLER_WA_ZO1-3_STRG_3		Binary Tag	1		Common_PLC-1	SCM	 8 in  Word DB229,DW90	0									0	0	0	0	0	0	0		
+pbt-SCM-D-SWQUELLE_COMPUTER_ANWAHL_REGLER_WA_ZO1-3_STRG_4		Binary Tag	1		Common_PLC-1	SCM	 8 in  Word DB229,DW110	0									0	0	0	0	0	0	0		
+pbt-SCM-D-SWQUELLE_LEVEL_1_ANWAHL_REGLER_WA_ZO1-3_STRG_1		Binary Tag	1		Common_PLC-1	SCM	12 in  Word DB229,DW50	0									0	0	0	0	0	0	0		
+pbt-SCM-D-SWQUELLE_LEVEL_1_ANWAHL_REGLER_WA_ZO1-3_STRG_2		Binary Tag	1		Common_PLC-1	SCM	12 in  Word DB229,DW70	0									0	0	0	0	0	0	0		
+pbt-SCM-D-SWQUELLE_LEVEL_1_ANWAHL_REGLER_WA_ZO1-3_STRG_3		Binary Tag	1		Common_PLC-1	SCM	12 in  Word DB229,DW90	0									0	0	0	0	0	0	0		
+pbt-SCM-D-SWQUELLE_LEVEL_1_ANWAHL_REGLER_WA_ZO1-3_STRG_4		Binary Tag	1		Common_PLC-1	SCM	12 in  Word DB229,DW110	0									0	0	0	0	0	0	0		
+pbt-SCM-U-LUFT_REGLER_ZONE_2_MIN_STRANG_1		Binary Tag	1		Common_PLC-1	SCM	 6 in  Word DB225,DW179	0									0	0	0	0	0	0	0		
+pbt-SCM-U-LUFT_REGLER_ZONE_2_MIN_STRANG_2		Binary Tag	1		Common_PLC-1	SCM	 6 in  Word DB225,DW199	0									0	0	0	0	0	0	0		
+pbt-SCM-U-LUFT_REGLER_ZONE_2_MIN_STRANG_3		Binary Tag	1		Common_PLC-1	SCM	 6 in  Word DB225,DW219	0									0	0	0	0	0	0	0		
+pbt-SCM-U-LUFT_REGLER_ZONE_2_MIN_STRANG_4		Binary Tag	1		Common_PLC-1	SCM	 6 in  Word DB225,DW239	0									0	0	0	0	0	0	0		
+pbt-SCM-U-LUFT_REGLER_ZONE_3_MIN_STRANG_1		Binary Tag	1		Common_PLC-1	SCM	 7 in  Word DB225,DW179	0									0	0	0	0	0	0	0		
+pbt-SCM-U-LUFT_REGLER_ZONE_3_MIN_STRANG_2		Binary Tag	1		Common_PLC-1	SCM	 7 in  Word DB225,DW199	0									0	0	0	0	0	0	0		
+pbt-SCM-U-LUFT_REGLER_ZONE_3_MIN_STRANG_3		Binary Tag	1		Common_PLC-1	SCM	 7 in  Word DB225,DW219	0									0	0	0	0	0	0	0		
+pbt-SCM-U-LUFT_REGLER_ZONE_3_MIN_STRANG_4		Binary Tag	1		Common_PLC-1	SCM	 7 in  Word DB225,DW239	0									0	0	0	0	0	0	0		
+pbt-SCM-U-QUALNUMMER_QUELLE_COMPUTER_ANZEIGE_STRANG_1		Binary Tag	1		Common_PLC-1	SCM	 8 in  Word DB225,DW176	0									0	0	0	0	0	0	0		
+pbt-SCM-U-QUALNUMMER_QUELLE_COMPUTER_ANZEIGE_STRANG_2		Binary Tag	1		Common_PLC-1	SCM	 8 in  Word DB225,DW196	0									0	0	0	0	0	0	0		
+pbt-SCM-U-QUALNUMMER_QUELLE_COMPUTER_ANZEIGE_STRANG_3		Binary Tag	1		Common_PLC-1	SCM	 8 in  Word DB225,DW216	0									0	0	0	0	0	0	0		
+pbt-SCM-U-QUALNUMMER_QUELLE_COMPUTER_ANZEIGE_STRANG_4		Binary Tag	1		Common_PLC-1	SCM	 8 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-SCM-U-QUALNUMMER_QUELLE_LEVEL_1_ANZEIGE_STRANG_1		Binary Tag	1		Common_PLC-1	SCM	 9 in  Word DB225,DW176	0									0	0	0	0	0	0	0		
+pbt-SCM-U-QUALNUMMER_QUELLE_LEVEL_1_ANZEIGE_STRANG_2		Binary Tag	1		Common_PLC-1	SCM	 9 in  Word DB225,DW196	0									0	0	0	0	0	0	0		
+pbt-SCM-U-QUALNUMMER_QUELLE_LEVEL_1_ANZEIGE_STRANG_3		Binary Tag	1		Common_PLC-1	SCM	 9 in  Word DB225,DW216	0									0	0	0	0	0	0	0		
+pbt-SCM-U-QUALNUMMER_QUELLE_LEVEL_1_ANZEIGE_STRANG_4		Binary Tag	1		Common_PLC-1	SCM	 9 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-SCM-U-SEKUNDAERKUEHLUNG_BEREIT_STRANG_4		Binary Tag	1		Common_PLC-1	SCM	14 in  Word DB225,DW236	0									0	0	0	0	0	0	0		
+pbt-SCM-U-SEKUNDARKUHLUNG_BEREIT_STRANG_2		Binary Tag	1		Common_PLC-1	SCM	14 in  Word DB225,DW196	0									0	0	0	0	0	0	0		
+pbt-SCM-U-SEKUNDARKUHLUNG_BEREIT_STRANG_3		Binary Tag	1		Common_PLC-1	SCM	14 in  Word DB225,DW216	0									0	0	0	0	0	0	0		
+pbt-SCM-U-SWQUELLE_BEDIENER_ANZEIGE_REGLER_WA_ZO1-3_STRG_1		Binary Tag	1		Common_PLC-1	SCM	 2 in  Word DB225,DW177	0									0	0	0	0	0	0	0		
+pbt-SCM-U-SWQUELLE_BEDIENER_ANZEIGE_REGLER_WA_ZO1-3_STRG_2		Binary Tag	1		Common_PLC-1	SCM	 2 in  Word DB225,DW197	0									0	0	0	0	0	0	0		
+pbt-SCM-U-SWQUELLE_BEDIENER_ANZEIGE_REGLER_WA_ZO1-3_STRG_3		Binary Tag	1		Common_PLC-1	SCM	 2 in  Word DB225,DW217	0									0	0	0	0	0	0	0		
+pbt-SCM-U-SWQUELLE_BEDIENER_ANZEIGE_REGLER_WA_ZO1-3_STRG_4		Binary Tag	1		Common_PLC-1	SCM	 2 in  Word DB225,DW237	0									0	0	0	0	0	0	0		
+pbt-SCM-U-SWQUELLE_COMPUTER_ANZEIGE_REGLER_WA_ZO1-3_STRG_1		Binary Tag	1		Common_PLC-1	SCM	 3 in  Word DB225,DW177	0									0	0	0	0	0	0	0		
+pbt-SCM-U-SWQUELLE_COMPUTER_ANZEIGE_REGLER_WA_ZO1-3_STRG_2		Binary Tag	1		Common_PLC-1	SCM	 3 in  Word DB225,DW197	0									0	0	0	0	0	0	0		
+pbt-SCM-U-SWQUELLE_COMPUTER_ANZEIGE_REGLER_WA_ZO1-3_STRG_3		Binary Tag	1		Common_PLC-1	SCM	 3 in  Word DB225,DW217	0									0	0	0	0	0	0	0		
+pbt-SCM-U-SWQUELLE_COMPUTER_ANZEIGE_REGLER_WA_ZO1-3_STRG_4		Binary Tag	1		Common_PLC-1	SCM	 3 in  Word DB225,DW237	0									0	0	0	0	0	0	0		
+pbt-SCM-U-SWQUELLE_LEVEL_1_ANZEIGE_REGLER_WA_ZO1-3_STRG_1		Binary Tag	1		Common_PLC-1	SCM	 7 in  Word DB225,DW177	0									0	0	0	0	0	0	0		
+pbt-SCM-U-SWQUELLE_LEVEL_1_ANZEIGE_REGLER_WA_ZO1-3_STRG_2		Binary Tag	1		Common_PLC-1	SCM	 7 in  Word DB225,DW197	0									0	0	0	0	0	0	0		
+pbt-SCM-U-SWQUELLE_LEVEL_1_ANZEIGE_REGLER_WA_ZO1-3_STRG_3		Binary Tag	1		Common_PLC-1	SCM	 7 in  Word DB225,DW217	0									0	0	0	0	0	0	0		
+pbt-SCM-U-SWQUELLE_LEVEL_1_ANZEIGE_REGLER_WA_ZO1-3_STRG_4		Binary Tag	1		Common_PLC-1	SCM	 7 in  Word DB225,DW237	0									0	0	0	0	0	0	0		
+pbt-SCM-U-WASSERDURCHFLUSS_REGLER_ZO1_MIN_STRANG_1		Binary Tag	1		Common_PLC-1	SCM	12 in  Word DB225,DW178	0									0	0	0	0	0	0	0		
+pbt-SCM-U-WASSERDURCHFLUSS_REGLER_ZO1_MIN_STRANG_2		Binary Tag	1		Common_PLC-1	SCM	12 in  Word DB225,DW198	0									0	0	0	0	0	0	0		
+pbt-SCM-U-WASSERDURCHFLUSS_REGLER_ZO1_MIN_STRANG_3		Binary Tag	1		Common_PLC-1	SCM	12 in  Word DB225,DW218	0									0	0	0	0	0	0	0		
+pbt-SCM-U-WASSERDURCHFLUSS_REGLER_ZO1_MIN_STRANG_4		Binary Tag	1		Common_PLC-1	SCM	12 in  Word DB225,DW238	0									0	0	0	0	0	0	0		
+pbt-SCM-U-WASSERDURCHFLUSS_REGLER_ZO2_MIN_STRANG_1		Binary Tag	1		Common_PLC-1	SCM	13 in  Word DB225,DW178	0									0	0	0	0	0	0	0		
+pbt-SCM-U-WASSERDURCHFLUSS_REGLER_ZO2_MIN_STRANG_2		Binary Tag	1		Common_PLC-1	SCM	13 in  Word DB225,DW198	0									0	0	0	0	0	0	0		
+pbt-SCM-U-WASSERDURCHFLUSS_REGLER_ZO2_MIN_STRANG_3		Binary Tag	1		Common_PLC-1	SCM	13 in  Word DB225,DW218	0									0	0	0	0	0	0	0		
+pbt-SCM-U-WASSERDURCHFLUSS_REGLER_ZO2_MIN_STRANG_4		Binary Tag	1		Common_PLC-1	SCM	13 in  Word DB225,DW238	0									0	0	0	0	0	0	0		
+pbt-SCM-U-WASSERDURCHFLUSS_REGLER_ZO3_MIN_STRANG_1		Binary Tag	1		Common_PLC-1	SCM	14 in  Word DB225,DW178	0									0	0	0	0	0	0	0		
+pbt-SCM-U-WASSERDURCHFLUSS_REGLER_ZO3_MIN_STRANG_2		Binary Tag	1		Common_PLC-1	SCM	14 in  Word DB225,DW198	0									0	0	0	0	0	0	0		
+pbt-SCM-U-WASSERDURCHFLUSS_REGLER_ZO3_MIN_STRANG_3		Binary Tag	1		Common_PLC-1	SCM	14 in  Word DB225,DW218	0									0	0	0	0	0	0	0		
+pbt-SCM-U-WASSERDURCHFLUSS_REGLER_ZO3_MIN_STRANG_4		Binary Tag	1		Common_PLC-1	SCM	14 in  Word DB225,DW238	0									0	0	0	0	0	0	0		
+pbt-SEX-A-ANTRIEB_1_STOERUNG		Binary Tag	1		Common_PLC-1	SEX	 3 in  Word DB225,DW21	0									0	0	0	0	0	0	0		
+pbt-SEX-A-ANTRIEB_2_STOERUNG		Binary Tag	1		Common_PLC-1	SEX	 4 in  Word DB225,DW21	0									0	0	0	0	0	0	0		
+pbt-SEX-D-ANTRIEB_1_AUS		Binary Tag	1		Common_PLC-1	SEX	 8 in  Word DB229,DW10	0									0	0	0	0	0	0	0		
+pbt-SEX-D-ANTRIEB_1_EIN		Binary Tag	1		Common_PLC-1	SEX	 7 in  Word DB229,DW10	0									0	0	0	0	0	0	0		
+pbt-SEX-D-ANTRIEB_2_AUS		Binary Tag	1		Common_PLC-1	SEX	10 in  Word DB229,DW10	0									0	0	0	0	0	0	0		
+pbt-SEX-D-ANTRIEB_2_EIN		Binary Tag	1		Common_PLC-1	SEX	 9 in  Word DB229,DW10	0									0	0	0	0	0	0	0		
+pbt-SEX-U-ANTRIEB_1_EIN		Binary Tag	1		Common_PLC-1	SEX	 6 in  Word DB225,DW140	0									0	0	0	0	0	0	0		
+pbt-SEX-U-ANTRIEB_2_EIN		Binary Tag	1		Common_PLC-1	SEX	 7 in  Word DB225,DW140	0									0	0	0	0	0	0	0		
+pbt-SEX-U-DAMPFABSAUGUNG_EIN		Binary Tag	1		Common_PLC-1	SEX	 0 in  Word DB225,DW146	0									0	0	0	0	0	0	0		
+pbt-STM-U-STEMPFELMASCHINE_1_IN_GRUNDSTELLUNG_STRANG_1		Binary Tag	1		Common_PLC-1	STM	 9 in  Word DB225,DW171	0									0	0	0	0	0	0	0		
+pbt-STM-U-STEMPFELMASCHINE_1_IN_GRUNDSTELLUNG_STRANG_2		Binary Tag	1		Common_PLC-1	STM	 9 in  Word DB225,DW191	0									0	0	0	0	0	0	0		
+pbt-STM-U-STEMPFELMASCHINE_1_IN_GRUNDSTELLUNG_STRANG_3		Binary Tag	1		Common_PLC-1	STM	 9 in  Word DB225,DW211	0									0	0	0	0	0	0	0		
+pbt-STM-U-STEMPFELMASCHINE_1_IN_GRUNDSTELLUNG_STRANG_4		Binary Tag	1		Common_PLC-1	STM	 9 in  Word DB225,DW231	0									0	0	0	0	0	0	0		
+pbt-STM-U-STEMPFELMASCHINE_2_IN_GRUNDSTELLUNG_STRANG_1		Binary Tag	1		Common_PLC-1	STM	10 in  Word DB225,DW171	0									0	0	0	0	0	0	0		
+pbt-STM-U-STEMPFELMASCHINE_2_IN_GRUNDSTELLUNG_STRANG_2		Binary Tag	1		Common_PLC-1	STM	10 in  Word DB225,DW191	0									0	0	0	0	0	0	0		
+pbt-STM-U-STEMPFELMASCHINE_2_IN_GRUNDSTELLUNG_STRANG_3		Binary Tag	1		Common_PLC-1	STM	10 in  Word DB225,DW211	0									0	0	0	0	0	0	0		
+pbt-STM-U-STEMPFELMASCHINE_2_IN_GRUNDSTELLUNG_STRANG_4		Binary Tag	1		Common_PLC-1	STM	10 in  Word DB225,DW231	0									0	0	0	0	0	0	0		
+pbt-STM-U-STEMPFELMASCHINE_IN_GRUNDSTELLUNG_STRANG_1		Binary Tag	1		Common_PLC-1	STM	 1 in  Word DB225,DW180	0									0	0	0	0	0	0	0		
+pbt-STM-U-STEMPFELMASCHINE_IN_GRUNDSTELLUNG_STRANG_2		Binary Tag	1		Common_PLC-1	STM	 1 in  Word DB225,DW200	0									0	0	0	0	0	0	0		
+pbt-STM-U-STEMPFELMASCHINE_IN_GRUNDSTELLUNG_STRANG_3		Binary Tag	1		Common_PLC-1	STM	 1 in  Word DB225,DW220	0									0	0	0	0	0	0	0		
+pbt-STM-U-STEMPFELMASCHINE_IN_GRUNDSTELLUNG_STRANG_4		Binary Tag	1		Common_PLC-1	STM	 1 in  Word DB225,DW240	0									0	0	0	0	0	0	0		
+pbt-STP-U-ANSCHLAG_3_BETRIEBSBEREIT		Binary Tag	1		Common_PLC-1	STP	 8 in  Word DB225,DW150	0									0	0	0	0	0	0	0		
+pbt-STP-U-BEWEGLICHE_ANSCHLAEGE_1-2_ABGESENKT_STRANG_4		Binary Tag	1		Common_PLC-1	STP	 9 in  Word DB225,DW235	0									0	0	0	0	0	0	0		
+pbt-STP-U-BEWEGLICHE_ANSCHLAGE_1-2_ABGESENKT_STRANG_1		Binary Tag	1		Common_PLC-1	STP	 9 in  Word DB225,DW175	0									0	0	0	0	0	0	0		
+pbt-STP-U-BEWEGLICHE_ANSCHLAGE_1-2_ABGESENKT_STRANG_2		Binary Tag	1		Common_PLC-1	STP	 9 in  Word DB225,DW195	0									0	0	0	0	0	0	0		
+pbt-STP-U-BEWEGLICHE_ANSCHLAGE_1-2_ABGESENKT_STRANG_3		Binary Tag	1		Common_PLC-1	STP	 9 in  Word DB225,DW215	0									0	0	0	0	0	0	0		
+pbt-STP-U-BEWEGLICHE_ANSCHLAGE_1_ABGESENKT_STRANG_1		Binary Tag	1		Common_PLC-1	STP	 0 in  Word DB225,DW171	0									0	0	0	0	0	0	0		
+pbt-STP-U-BEWEGLICHE_ANSCHLAGE_1_ABGESENKT_STRANG_2		Binary Tag	1		Common_PLC-1	STP	 0 in  Word DB225,DW191	0									0	0	0	0	0	0	0		
+pbt-STP-U-BEWEGLICHE_ANSCHLAGE_1_ABGESENKT_STRANG_3		Binary Tag	1		Common_PLC-1	STP	 0 in  Word DB225,DW211	0									0	0	0	0	0	0	0		
+pbt-STP-U-BEWEGLICHE_ANSCHLAGE_1_ABGESENKT_STRANG_4		Binary Tag	1		Common_PLC-1	STP	 0 in  Word DB225,DW231	0									0	0	0	0	0	0	0		
+pbt-STP-U-BEWEGLICHE_ANSCHLAGE_2_ABGESENKT_STRANG_1		Binary Tag	1		Common_PLC-1	STP	 1 in  Word DB225,DW171	0									0	0	0	0	0	0	0		
+pbt-STP-U-BEWEGLICHE_ANSCHLAGE_2_ABGESENKT_STRANG_2		Binary Tag	1		Common_PLC-1	STP	 1 in  Word DB225,DW191	0									0	0	0	0	0	0	0		
+pbt-STP-U-BEWEGLICHE_ANSCHLAGE_2_ABGESENKT_STRANG_3		Binary Tag	1		Common_PLC-1	STP	 1 in  Word DB225,DW211	0									0	0	0	0	0	0	0		
+pbt-STP-U-BEWEGLICHE_ANSCHLAGE_2_ABGESENKT_STRANG_4		Binary Tag	1		Common_PLC-1	STP	 1 in  Word DB225,DW231	0									0	0	0	0	0	0	0		
+pbt-STT-A-SYNCHRONISATIONS_FEHLER_KS-SYNC_STRANG_1		Binary Tag	1		Common_PLC-1	STT	 0 in  Word DB225,DW59	0									0	0	0	0	0	0	0		
+pbt-STT-A-SYNCHRONISATIONS_FEHLER_KS-SYNC_STRANG_2		Binary Tag	1		Common_PLC-1	STT	 0 in  Word DB225,DW79	0									0	0	0	0	0	0	0		
+pbt-STT-A-SYNCHRONISATIONS_FEHLER_KS-SYNC_STRANG_3		Binary Tag	1		Common_PLC-1	STT	 0 in  Word DB225,DW99	0									0	0	0	0	0	0	0		
+pbt-STT-A-SYNCHRONISATIONS_FEHLER_KS-SYNC_STRANG_4		Binary Tag	1		Common_PLC-1	STT	 0 in  Word DB225,DW119	0									0	0	0	0	0	0	0		
+pbt-STT-A-SYNCHRONISATIONS_FEHLER_WS-SYNC_STRANG_1		Binary Tag	1		Common_PLC-1	STT	 1 in  Word DB225,DW59	0									0	0	0	0	0	0	0		
+pbt-STT-A-SYNCHRONISATIONS_FEHLER_WS-SYNC_STRANG_2		Binary Tag	1		Common_PLC-1	STT	 1 in  Word DB225,DW79	0									0	0	0	0	0	0	0		
+pbt-STT-A-SYNCHRONISATIONS_FEHLER_WS-SYNC_STRANG_3		Binary Tag	1		Common_PLC-1	STT	 1 in  Word DB225,DW99	0									0	0	0	0	0	0	0		
+pbt-STT-A-SYNCHRONISATIONS_FEHLER_WS-SYNC_STRANG_4		Binary Tag	1		Common_PLC-1	STT	 1 in  Word DB225,DW119	0									0	0	0	0	0	0	0		
+pbt-T_W-D-VERTEILERWIEGUNG_RESETIEREN		Binary Tag	1		Common_PLC-1	T_W	 4 in  Word DB229,DW10	0									0	0	0	0	0	0	0		
+pbt-TCM-U-BRENNSCHNEIDMASCHINE_OK_STRANG_1		Binary Tag	1		Common_PLC-1	TCM	10 in  Word DB225,DW175	0									0	0	0	0	0	0	0		
+pbt-TCM-U-BRENNSCHNEIDMASCHINE_OK_STRANG_2		Binary Tag	1		Common_PLC-1	TCM	10 in  Word DB225,DW195	0									0	0	0	0	0	0	0		
+pbt-TCM-U-BRENNSCHNEIDMASCHINE_OK_STRANG_3		Binary Tag	1		Common_PLC-1	TCM	10 in  Word DB225,DW215	0									0	0	0	0	0	0	0		
+pbt-TCM-U-BRENNSCHNEIDMASCHINE_OK_STRANG_4		Binary Tag	1		Common_PLC-1	TCM	10 in  Word DB225,DW235	0									0	0	0	0	0	0	0		
+pbt-TCM-U-BSM_IN_AUSGANGSPOSITION;_KLEMMUNG_OFFEN_STRANG_1		Binary Tag	1		Common_PLC-1	TCM	11 in  Word DB225,DW175	0									0	0	0	0	0	0	0		
+pbt-TCM-U-BSM_IN_AUSGANGSPOSITION;_KLEMMUNG_OFFEN_STRANG_2		Binary Tag	1		Common_PLC-1	TCM	11 in  Word DB225,DW195	0									0	0	0	0	0	0	0		
+pbt-TCM-U-BSM_IN_AUSGANGSPOSITION;_KLEMMUNG_OFFEN_STRANG_3		Binary Tag	1		Common_PLC-1	TCM	11 in  Word DB225,DW215	0									0	0	0	0	0	0	0		
+pbt-TCM-U-BSM_IN_AUSGANGSPOSITION;_KLEMMUNG_OFFEN_STRANG_4		Binary Tag	1		Common_PLC-1	TCM	11 in  Word DB225,DW235	0									0	0	0	0	0	0	0		
+pbt-TCM-U-BSM_IN_GRUNDSTELLUNG_STRANG_1		Binary Tag	1		Common_PLC-1	TCM	 3 in  Word DB225,DW171	0									0	0	0	0	0	0	0		
+pbt-TCM-U-BSM_IN_GRUNDSTELLUNG_STRANG_2		Binary Tag	1		Common_PLC-1	TCM	 3 in  Word DB225,DW191	0									0	0	0	0	0	0	0		
+pbt-TCM-U-BSM_IN_GRUNDSTELLUNG_STRANG_3		Binary Tag	1		Common_PLC-1	TCM	 3 in  Word DB225,DW211	0									0	0	0	0	0	0	0		
+pbt-TCM-U-BSM_IN_GRUNDSTELLUNG_STRANG_4		Binary Tag	1		Common_PLC-1	TCM	 3 in  Word DB225,DW231	0									0	0	0	0	0	0	0		
+pbt-TCM-U-KLEMMUNG_OFFEN_STRANG_1		Binary Tag	1		Common_PLC-1	TCM	 5 in  Word DB225,DW171	0									0	0	0	0	0	0	0		
+pbt-TCM-U-KLEMMUNG_OFFEN_STRANG_2		Binary Tag	1		Common_PLC-1	TCM	 5 in  Word DB225,DW191	0									0	0	0	0	0	0	0		
+pbt-TCM-U-KLEMMUNG_OFFEN_STRANG_3		Binary Tag	1		Common_PLC-1	TCM	 5 in  Word DB225,DW211	0									0	0	0	0	0	0	0		
+pbt-TCM-U-KLEMMUNG_OFFEN_STRANG_4		Binary Tag	1		Common_PLC-1	TCM	 5 in  Word DB225,DW231	0									0	0	0	0	0	0	0		
+pbt-TCM-U-MESSROLLE_ANGELEGT_STRANG_1		Binary Tag	1		Common_PLC-1	TCM	 0 in  Word DB225,DW179	0									0	0	0	0	0	0	0		
+pbt-TCM-U-MESSROLLE_ANGELEGT_STRANG2		Binary Tag	1		Common_PLC-1	TCM	 0 in  Word DB225,DW199	0									0	0	0	0	0	0	0		
+pbt-TCM-U-MESSROLLE_ANGELEGT_STRANG3		Binary Tag	1		Common_PLC-1	TCM	 0 in  Word DB225,DW219	0									0	0	0	0	0	0	0		
+pbt-TCM-U-MESSROLLE_ANGELEGT_STRANG4		Binary Tag	1		Common_PLC-1	TCM	 0 in  Word DB225,DW239	0									0	0	0	0	0	0	0		
+pbt-TCM-U-MESSROLLE_IN_GRUNDSTELLUNG_STRANG_1		Binary Tag	1		Common_PLC-1	TCM	 4 in  Word DB225,DW171	0									0	0	0	0	0	0	0		
+pbt-TCM-U-MESSROLLE_IN_GRUNDSTELLUNG_STRANG_2		Binary Tag	1		Common_PLC-1	TCM	 4 in  Word DB225,DW191	0									0	0	0	0	0	0	0		
+pbt-TCM-U-MESSROLLE_IN_GRUNDSTELLUNG_STRANG_3		Binary Tag	1		Common_PLC-1	TCM	 4 in  Word DB225,DW211	0									0	0	0	0	0	0	0		
+pbt-TCM-U-MESSROLLE_IN_GRUNDSTELLUNG_STRANG_4		Binary Tag	1		Common_PLC-1	TCM	 4 in  Word DB225,DW231	0									0	0	0	0	0	0	0		
+pbt-TST-A-DRUCK_MIN_ALARM_1-ALARM_MIN-0=OK		Binary Tag	1		Common_PLC-1	TST	 8 in  Word DB225,DW25	0									0	0	0	0	0	0	0		
+pbt-TST-A-DRUCK_NICHT_GIESSBEREIT_VT(LI_1=ALARM-0=BEREIT		Binary Tag	1		Common_PLC-1	TST	 1 in  Word DB225,DW26	0									0	0	0	0	0	0	0		
+pbt-TST-A-DRUCK_NICHT_GIESSBEREIT_VT(RE_1=ALARM-0=BEREIT		Binary Tag	1		Common_PLC-1	TST	 0 in  Word DB225,DW26	0									0	0	0	0	0	0	0		
+pbt-TST-A-DRUCK_SPEICHER_VOLL_1-ALARM-0=VOLL		Binary Tag	1		Common_PLC-1	TST	 9 in  Word DB225,DW25	0									0	0	0	0	0	0	0		
+pbt-TST-A-EIFEHLER_HEIZUNG_1-FEHLER-0=OK		Binary Tag	1		Common_PLC-1	TST	 2 in  Word DB225,DW25	0									0	0	0	0	0	0	0		
+pbt-TST-A-EIFEHLER_PUMPE2_1=FEHLER-0=OK		Binary Tag	1		Common_PLC-1	TST	 1 in  Word DB225,DW25	0									0	0	0	0	0	0	0		
+pbt-TST-A-EIFEHLER_PUMPEL_1-FEHLER-0=OK		Binary Tag	1		Common_PLC-1	TST	 0 in  Word DB225,DW25	0									0	0	0	0	0	0	0		
+pbt-TST-A-GSR_HYDRAGGRGIESSBEREIT_1=NBEREIT-0=OK		Binary Tag	1		Common_PLC-1	TST	11 in  Word DB225,DW25	0									0	0	0	0	0	0	0		
+pbt-TST-A-OELNIVEAU_MIN_1=MIN-0=OK		Binary Tag	1		Common_PLC-1	TST	 3 in  Word DB225,DW25	0									0	0	0	0	0	0	0		
+pbt-TST-A-OELNIVEAU_PUMPEN_AUS_1-PMP_AUS-0=OK		Binary Tag	1		Common_PLC-1	TST	 4 in  Word DB225,DW25	0									0	0	0	0	0	0	0		
+pbt-TST-A-OELTEMP_MAX_ALARM_1-ALARM_MAX-0=OK		Binary Tag	1		Common_PLC-1	TST	 6 in  Word DB225,DW25	0									0	0	0	0	0	0	0		
+pbt-TST-A-OELTEMP_MAX_WARNUNG_1=WARNMAX-0=OK		Binary Tag	1		Common_PLC-1	TST	 5 in  Word DB225,DW25	0									0	0	0	0	0	0	0		
+pbt-TST-A-OELTEMP_MIN_ALARM_1=ALARM_MIN-0=OK		Binary Tag	1		Common_PLC-1	TST	 7 in  Word DB225,DW25	0									0	0	0	0	0	0	0		
+pbt-TST-A-RUECKLAUFFILTER_VERLEGT_1-ALARM-0=OK		Binary Tag	1		Common_PLC-1	TST	10 in  Word DB225,DW25	0									0	0	0	0	0	0	0		
+pbt-TST-A-SPEISEFILTER_VERLEGT_VT(LI_1=VERLEGT-0=OK		Binary Tag	1		Common_PLC-1	TST	 3 in  Word DB225,DW26	0									0	0	0	0	0	0	0		
+pbt-TST-A-SPEISEFILTER_VERLEGT_VT(RE_1-VERLEGT-0=OK		Binary Tag	1		Common_PLC-1	TST	 2 in  Word DB225,DW26	0									0	0	0	0	0	0	0		
+pbt-TST-D-GSR_HYDRAGGREGAT_AUS_1=AUS		Binary Tag	1		Common_PLC-1	TST	 1 in  Word DB229,DW15	0									0	0	0	0	0	0	0		
+pbt-TST-D-GSR_HYDRAGGREGAT_EIN_1=EIN		Binary Tag	1		Common_PLC-1	TST	 0 in  Word DB229,DW15	0									0	0	0	0	0	0	0		
+pbt-TST-D-VORWAHL_PUMPE1_AUTO_1=AUTO		Binary Tag	1		Common_PLC-1	TST	 2 in  Word DB229,DW15	0									0	0	0	0	0	0	0		
+pbt-TST-D-VORWAHL_PUMPE1_BACKUP_1=BACKUP		Binary Tag	1		Common_PLC-1	TST	 3 in  Word DB229,DW15	0									0	0	0	0	0	0	0		
+pbt-TST-D-VORWAHL_PUMPE2_AUTO_1=AUTO		Binary Tag	1		Common_PLC-1	TST	 4 in  Word DB229,DW15	0									0	0	0	0	0	0	0		
+pbt-TST-D-VORWAHL_PUMPE2_BACKUP_1=BACKUP		Binary Tag	1		Common_PLC-1	TST	 5 in  Word DB229,DW15	0									0	0	0	0	0	0	0		
+pbt-TST-U-BA_GIESSPIEGEL_REGELUNG-AUTO_STRANG_1		Binary Tag	1		Common_PLC-1	TST	 0 in  Word DB225,DW170	0									0	0	0	0	0	0	0		
+pbt-TST-U-BA_GIESSPIEGEL_REGELUNG_1=A_0=M_STRANG_2		Binary Tag	1		Common_PLC-1	TST	 0 in  Word DB225,DW190	0									0	0	0	0	0	0	0		
+pbt-TST-U-BA_GIESSPIEGEL_REGELUNG_1=A_0=M_STRANG_3		Binary Tag	1		Common_PLC-1	TST	 0 in  Word DB225,DW210	0									0	0	0	0	0	0	0		
+pbt-TST-U-BA_GIESSPIEGEL_REGELUNG_1=A_0=M_STRANG_4		Binary Tag	1		Common_PLC-1	TST	 0 in  Word DB225,DW230	0									0	0	0	0	0	0	0		
+pbt-TST-U-HYDRWAHLSCHALTER_AUTO_1=AUTO-0=NAUTO		Binary Tag	1		Common_PLC-1	TST	 0 in  Word DB225,DW145	0									0	0	0	0	0	0	0		
+pbt-TST-U-HYDRWAHLSCHALTER_MANUELL_1=MAN-0=NMAN		Binary Tag	1		Common_PLC-1	TST	 1 in  Word DB225,DW145	0									0	0	0	0	0	0	0		
+pbt-TST-U-RUECKMELDUNG_HEIZUNG_1=EIN-0=AUS		Binary Tag	1		Common_PLC-1	TST	 7 in  Word DB225,DW145	0									0	0	0	0	0	0	0		
+pbt-TST-U-RUECKMELDUNG_HYDRSTATUS_1=EIN-0=AUS		Binary Tag	1		Common_PLC-1	TST	 2 in  Word DB225,DW145	0									0	0	0	0	0	0	0		
+pbt-TST-U-RUECKMELDUNG_PUMPE1_1=EIN-0=AUS		Binary Tag	1		Common_PLC-1	TST	 5 in  Word DB225,DW145	0									0	0	0	0	0	0	0		
+pbt-TST-U-RUECKMELDUNG_PUMPE2_1=EIN-0=AUS		Binary Tag	1		Common_PLC-1	TST	 6 in  Word DB225,DW145	0									0	0	0	0	0	0	0		
+pbt-TST-U-RUECKMELDUNG_VORWAHL_PUMPE1_1-AUTO-0=BACKUP		Binary Tag	1		Common_PLC-1	TST	 3 in  Word DB225,DW145	0									0	0	0	0	0	0	0		
+pbt-TST-U-RUECKMELDUNG_VORWAHL_PUMPE2_1-AUTO-0=BACKUP		Binary Tag	1		Common_PLC-1	TST	 4 in  Word DB225,DW145	0									0	0	0	0	0	0	0		
+pbt-TST-U-VERTEILERSTOPFEN_VORSIGNAL_ZU-MACHEN_STRANG_1		Binary Tag	1		Common_PLC-1	TST	 8 in  Word DB225,DW179	0									0	0	0	0	0	0	0		
+pbt-TST-U-VERTEILERSTOPFEN_VORSIGNAL_ZU-MACHEN_STRANG_2		Binary Tag	1		Common_PLC-1	TST	 8 in  Word DB225,DW199	0									0	0	0	0	0	0	0		
+pbt-TST-U-VERTEILERSTOPFEN_VORSIGNAL_ZU-MACHEN_STRANG_3		Binary Tag	1		Common_PLC-1	TST	 8 in  Word DB225,DW219	0									0	0	0	0	0	0	0		
+pbt-TST-U-VERTEILERSTOPFEN_VORSIGNAL_ZU-MACHEN_STRANG_4		Binary Tag	1		Common_PLC-1	TST	 8 in  Word DB225,DW239	0									0	0	0	0	0	0	0		
+pbt-TST-U-VERTEILERSTOPFEN_ZU_STRANG_1		Binary Tag	1		Common_PLC-1	TST	 9 in  Word DB225,DW179	0									0	0	0	0	0	0	0		
+pbt-TST-U-VERTEILERSTOPFEN_ZU_STRANG_2		Binary Tag	1		Common_PLC-1	TST	 9 in  Word DB225,DW199	0									0	0	0	0	0	0	0		
+pbt-TST-U-VERTEILERSTOPFEN_ZU_STRANG_3		Binary Tag	1		Common_PLC-1	TST	 9 in  Word DB225,DW219	0									0	0	0	0	0	0	0		
+pbt-TST-U-VERTEILERSTOPFEN_ZU_STRANG_4		Binary Tag	1		Common_PLC-1	TST	 9 in  Word DB225,DW239	0									0	0	0	0	0	0	0		
+pbt-WDH-U-ANTRIEB_B3_AUS_STRANG_1		Binary Tag	1		Common_PLC-1	WDH	12 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDH-U-ANTRIEB_B4_AUS_STRANG_1		Binary Tag	1		Common_PLC-1	WDH	14 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_A1_STORUNG_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 0 in  Word DB225,DW55	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_A1_STORUNG_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 0 in  Word DB225,DW75	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_A1_STORUNG_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 0 in  Word DB225,DW95	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_A1_STORUNG_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 0 in  Word DB225,DW115	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_A2_STORUNG_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 1 in  Word DB225,DW55	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_A2_STORUNG_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 1 in  Word DB225,DW75	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_A2_STORUNG_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 1 in  Word DB225,DW95	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_A2_STORUNG_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 1 in  Word DB225,DW115	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_A3_STORUNG_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 2 in  Word DB225,DW55	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_A3_STORUNG_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 2 in  Word DB225,DW75	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_A3_STORUNG_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 2 in  Word DB225,DW95	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_A3_STORUNG_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 2 in  Word DB225,DW115	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_A4_STORUNG_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 3 in  Word DB225,DW55	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_A4_STORUNG_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 3 in  Word DB225,DW75	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_A4_STORUNG_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 3 in  Word DB225,DW95	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_A4_STORUNG_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 3 in  Word DB225,DW115	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_B1_STORUNG_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 4 in  Word DB225,DW55	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_B1_STORUNG_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 4 in  Word DB225,DW75	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_B1_STORUNG_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 4 in  Word DB225,DW95	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_B1_STORUNG_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 4 in  Word DB225,DW115	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_B2_STORUNG_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 5 in  Word DB225,DW55	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_B2_STORUNG_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 5 in  Word DB225,DW75	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_B2_STORUNG_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 5 in  Word DB225,DW95	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_B2_STORUNG_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 5 in  Word DB225,DW115	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_B3_STORUNG_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 6 in  Word DB225,DW55	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_B3_STORUNG_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 6 in  Word DB225,DW75	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_B3_STORUNG_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 6 in  Word DB225,DW95	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_B3_STORUNG_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 6 in  Word DB225,DW115	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_B4_STORUNG_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 7 in  Word DB225,DW55	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_B4_STORUNG_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 7 in  Word DB225,DW75	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_B4_STORUNG_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 7 in  Word DB225,DW95	0									0	0	0	0	0	0	0		
+pbt-WDR-A-ANTRIEB_B4_STORUNG_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 7 in  Word DB225,DW115	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A1_AUS_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 0 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A1_AUS_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 0 in  Word DB225,DW194	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A1_AUS_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 0 in  Word DB225,DW214	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A1_AUS_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 0 in  Word DB225,DW234	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A1_EIN_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 1 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A1_EIN_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 1 in  Word DB225,DW194	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A1_EIN_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 1 in  Word DB225,DW214	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A1_EIN_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 1 in  Word DB225,DW234	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A2_AUS_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 2 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A2_AUS_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 2 in  Word DB225,DW194	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A2_AUS_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 2 in  Word DB225,DW214	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A2_AUS_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 2 in  Word DB225,DW234	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A2_EIN_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 3 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A2_EIN_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 3 in  Word DB225,DW194	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A2_EIN_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 3 in  Word DB225,DW214	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A2_EIN_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 3 in  Word DB225,DW234	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A3_AUS_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 4 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A3_AUS_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 4 in  Word DB225,DW194	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A3_AUS_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 4 in  Word DB225,DW214	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A3_AUS_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 4 in  Word DB225,DW234	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A3_EIN_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 5 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A3_EIN_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 5 in  Word DB225,DW194	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A3_EIN_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 5 in  Word DB225,DW214	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A3_EIN_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 5 in  Word DB225,DW234	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A4_AUS_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 6 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A4_AUS_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 6 in  Word DB225,DW194	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A4_AUS_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 6 in  Word DB225,DW214	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A4_AUS_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 6 in  Word DB225,DW234	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A4_EIN_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 7 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A4_EIN_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 7 in  Word DB225,DW194	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A4_EIN_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 7 in  Word DB225,DW214	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_A4_EIN_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 7 in  Word DB225,DW234	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B1_AUS_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 8 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B1_AUS_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 8 in  Word DB225,DW194	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B1_AUS_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 8 in  Word DB225,DW214	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B1_AUS_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 8 in  Word DB225,DW234	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B1_EIN_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 9 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B1_EIN_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 9 in  Word DB225,DW194	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B1_EIN_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 9 in  Word DB225,DW214	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B1_EIN_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 9 in  Word DB225,DW234	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B2_AUS_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	10 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B2_AUS_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	10 in  Word DB225,DW194	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B2_AUS_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	10 in  Word DB225,DW214	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B2_AUS_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	10 in  Word DB225,DW234	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B2_EIN_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	11 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B2_EIN_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	11 in  Word DB225,DW194	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B2_EIN_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	11 in  Word DB225,DW214	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B2_EIN_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	11 in  Word DB225,DW234	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B3_AUS_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	12 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B3_AUS_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	12 in  Word DB225,DW194	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B3_AUS_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	12 in  Word DB225,DW214	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B3_AUS_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	12 in  Word DB225,DW234	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B3_EIN_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	13 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B3_EIN_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	13 in  Word DB225,DW194	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B3_EIN_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	13 in  Word DB225,DW214	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B3_EIN_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	13 in  Word DB225,DW234	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B4_AUS_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	14 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B4_AUS_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	14 in  Word DB225,DW194	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B4_AUS_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	14 in  Word DB225,DW214	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B4_AUS_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	14 in  Word DB225,DW234	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B4_EIN_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	15 in  Word DB225,DW174	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B4_EIN_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	15 in  Word DB225,DW194	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B4_EIN_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	15 in  Word DB225,DW214	0									0	0	0	0	0	0	0		
+pbt-WDR-U-ANTRIEB_B4_EIN_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	15 in  Word DB225,DW234	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBERANSTELLUNG_OK_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 0 in  Word DB225,DW180	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBERANSTELLUNG_OK_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 0 in  Word DB225,DW200	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBERANSTELLUNG_OK_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 0 in  Word DB225,DW220	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBERANSTELLUNG_OK_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 0 in  Word DB225,DW240	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBERANTRIEBE_OK_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	10 in  Word DB225,DW178	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBERANTRIEBE_OK_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	10 in  Word DB225,DW198	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBERANTRIEBE_OK_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	10 in  Word DB225,DW218	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBERANTRIEBE_OK_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	10 in  Word DB225,DW238	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBERRICHTUNG_RUCKWARTS_KS-EINFAHREN_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 3 in  Word DB225,DW180	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBERRICHTUNG_RUCKWARTS_KS-EINFAHREN_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 3 in  Word DB225,DW200	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBERRICHTUNG_RUCKWARTS_KS-EINFAHREN_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 3 in  Word DB225,DW220	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBERRICHTUNG_RUCKWARTS_KS-EINFAHREN_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 3 in  Word DB225,DW240	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBERRICHTUNG_VORWARTS_GIESSRICHTUNG_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	 2 in  Word DB225,DW180	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBERRICHTUNG_VORWARTS_GIESSRICHTUNG_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	 2 in  Word DB225,DW200	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBERRICHTUNG_VORWARTS_GIESSRICHTUNG_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	 2 in  Word DB225,DW220	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBERRICHTUNG_VORWARTS_GIESSRICHTUNG_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	 2 in  Word DB225,DW240	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBGERUST_1-6_OFFEN_STRANG_1		Binary Tag	1		Common_PLC-1	WDR	11 in  Word DB225,DW178	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBGERUST_1-6_OFFEN_STRANG_2		Binary Tag	1		Common_PLC-1	WDR	11 in  Word DB225,DW198	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBGERUST_1-6_OFFEN_STRANG_3		Binary Tag	1		Common_PLC-1	WDR	11 in  Word DB225,DW218	0									0	0	0	0	0	0	0		
+pbt-WDR-U-TREIBGERUST_1-6_OFFEN_STRANG_4		Binary Tag	1		Common_PLC-1	WDR	11 in  Word DB225,DW238	0									0	0	0	0	0	0	0		
+pdd-L_W-S-Taragewicht_fuer_Arm_in_GPOS		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	L_W	DB228,DD10	0									0	0	0	0	0	0	0		
+pdd-OMO-S-KOKILLENFORMAT_SYMBOLISCHER_WERT_1		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OMO	DB228,DD114	0									0	0	0	0	0	0	0		
+pdd-OMO-S-KOKILLENFORMAT_SYMBOLISCHER_WERT_2		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OMO	DB228,DD194	0									0	0	0	0	0	0	0		
+pdd-OMO-S-KOKILLENFORMAT_SYMBOLISCHER_WERT_3		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OMO	DB228,DD234	0									0	0	0	0	0	0	0		
+pdd-OMO-S-KOKILLENFORMAT_SYMBOLISCHER_WERT_4		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OMO	DB228,DD154	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_FAKTOR_К_STRANG_1		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD102	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_FAKTOR_К_STRANG_2		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD142	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_FAKTOR_К_STRANG_3		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD182	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_FAKTOR_К_STRANG_4		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD222	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_FREQUENZ_LEVEL_1_MAX_STRANG_1		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD104	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_FREQUENZ_LEVEL_1_MAX_STRANG_2		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD144	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_FREQUENZ_LEVEL_1_MAX_STRANG_3		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD184	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_FREQUENZ_LEVEL_1_MAX_STRANG_4		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD224	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_FREQUENZ_LEVEL_1_MIN_STRANG_1		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD106	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_FREQUENZ_LEVEL_1_MIN_STRANG_2		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD146	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_FREQUENZ_LEVEL_1_MIN_STRANG_3		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD186	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_FREQUENZ_LEVEL_1_MIN_STRANG_4		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD226	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_FREQUENZ_SOLLWERT_HAND_STRANG_1		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD108	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_FREQUENZ_SOLLWERT_HAND_STRANG_2		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD148	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_FREQUENZ_SOLLWERT_HAND_STRANG_3		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD188	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_FREQUENZ_SOLLWERT_HAND_STRANG_4		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD228	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_HUBHOEHE_STRANG_1		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD110	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_HUBHOEHE_STRANG_2		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD150	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_HUBHOEHE_STRANG_3		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD190	0									0	0	0	0	0	0	0		
+pdd-OSZ-S-OSZILLIER_HUBHOEHE_STRANG_4		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OSZ	DB228,DD230	0									0	0	0	0	0	0	0		
+pdd-PCS-S-BEDIENER_SOLLWERT_REGLEROKILLE_STRANG_1		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	PCS	DB228,DD90	0									0	0	0	0	0	0	0		
+pdd-PCS-S-BEDIENER_SOLLWERT_REGLEROKILLE_STRANG_2		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	PCS	DB228,DD130	0									0	0	0	0	0	0	0		
+pdd-PCS-S-BEDIENER_SOLLWERT_REGLEROKILLE_STRANG_3		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	PCS	DB228,DD170	0									0	0	0	0	0	0	0		
+pdd-PCS-S-BEDIENER_SOLLWERT_REGLEROKILLE_STRANG_4		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	PCS	DB228,DD210	0									0	0	0	0	0	0	0		
+pdd-SCA-S-BEDIENER_SOLLWERT_REGLER_LUFT_ZONE_2_STRANG_1		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB228,DD92	0									0	0	0	0	0	0	0		
+pdd-SCA-S-BEDIENER_SOLLWERT_REGLER_LUFT_ZONE_2_STRANG_2		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB228,DD132	0									0	0	0	0	0	0	0		
+pdd-SCA-S-BEDIENER_SOLLWERT_REGLER_LUFT_ZONE_2_STRANG_3		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB228,DD172	0									0	0	0	0	0	0	0		
+pdd-SCA-S-BEDIENER_SOLLWERT_REGLER_LUFT_ZONE_2_STRANG_4		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB228,DD212	0									0	0	0	0	0	0	0		
+pdd-SCA-S-BEDIENER_SOLLWERT_REGLER_LUFT_ZONE_3_STRANG_1		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB228,DD94	0									0	0	0	0	0	0	0		
+pdd-SCA-S-BEDIENER_SOLLWERT_REGLER_LUFT_ZONE_3_STRANG_2		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB228,DD134	0									0	0	0	0	0	0	0		
+pdd-SCA-S-BEDIENER_SOLLWERT_REGLER_LUFT_ZONE_3_STRANG_3		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB228,DD174	0									0	0	0	0	0	0	0		
+pdd-SCA-S-BEDIENER_SOLLWERT_REGLER_LUFT_ZONE_3_STRANG_4		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB228,DD214	0									0	0	0	0	0	0	0		
+pdd-SCM-S-BEDIENER_SOLLWERT_REGLER_WASSER_ZONE_1_STRANG_1		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB228,DD96	0									0	0	0	0	0	0	0		
+pdd-SCM-S-BEDIENER_SOLLWERT_REGLER_WASSER_ZONE_1_STRANG_2		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB228,DD136	0									0	0	0	0	0	0	0		
+pdd-SCM-S-BEDIENER_SOLLWERT_REGLER_WASSER_ZONE_1_STRANG_3		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB228,DD176	0									0	0	0	0	0	0	0		
+pdd-SCM-S-BEDIENER_SOLLWERT_REGLER_WASSER_ZONE_1_STRANG_4		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB228,DD216	0									0	0	0	0	0	0	0		
+pdd-SCM-S-BEDIENER_SOLLWERT_REGLER_WASSER_ZONE_2_STRANG_1		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB228,DD98	0									0	0	0	0	0	0	0		
+pdd-SCM-S-BEDIENER_SOLLWERT_REGLER_WASSER_ZONE_2_STRANG_2		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB228,DD138	0									0	0	0	0	0	0	0		
+pdd-SCM-S-BEDIENER_SOLLWERT_REGLER_WASSER_ZONE_2_STRANG_3		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB228,DD178	0									0	0	0	0	0	0	0		
+pdd-SCM-S-BEDIENER_SOLLWERT_REGLER_WASSER_ZONE_2_STRANG_4		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB228,DD218	0									0	0	0	0	0	0	0		
+pdd-SCM-S-BEDIENER_SOLLWERT_REGLER_WASSER_ZONE_3_STRANG_1		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB228,DD100	0									0	0	0	0	0	0	0		
+pdd-SCM-S-BEDIENER_SOLLWERT_REGLER_WASSER_ZONE_3_STRANG_2		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB228,DD140	0									0	0	0	0	0	0	0		
+pdd-SCM-S-BEDIENER_SOLLWERT_REGLER_WASSER_ZONE_3_STRANG_3		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB228,DD180	0									0	0	0	0	0	0	0		
+pdd-SCM-S-BEDIENER_SOLLWERT_REGLER_WASSER_ZONE_3_STRANG_4		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB228,DD220	0									0	0	0	0	0	0	0		
+pdd-SCM-S-QUAL_NUMMER_LEVEL_1_STRANG_1		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB228,DD112	0									0	0	0	0	0	0	0		
+pdd-SCM-S-QUAL_NUMMER_LEVEL_1_STRANG_2		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB228,DD152	0									0	0	0	0	0	0	0		
+pdd-SCM-S-QUAL_NUMMER_LEVEL_1_STRANG_3		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB228,DD192	0									0	0	0	0	0	0	0		
+pdd-SCM-S-QUAL_NUMMER_LEVEL_1_STRANG_4		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB228,DD232	0									0	0	0	0	0	0	0		
+pfp-OMO-S-KOKILLENFORMAT_1-4		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	OMO	DB134,DD2	0									0	0	0	0	0	0	0		
+pfp-PCS-S-KK-SOLLWERTOKILLE_WASSER_STARTWERT		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	PCS	DB134,DD10	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_2_LUFT_DURCHFLUSS_10_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD152	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_2_LUFT_DURCHFLUSS_20_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD154	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_2_LUFT_DURCHFLUSS_30_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD156	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_2_LUFT_DURCHFLUSS_40_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD158	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_2_LUFT_DURCHFLUSS_50_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD160	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_2_LUFT_DURCHFLUSS_60_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD162	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_2_LUFT_DURCHFLUSS_70_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD164	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_2_LUFT_DURCHFLUSS_80_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD166	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_2_LUFT_DURCHFLUSS_90_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD168	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_2_LUFT_DURCHFLUSS_100_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD170	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_2_LUFT_DURCHFLUSS_110_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD172	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_2_LUFT_DURCHFLUSS_120_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD174	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_2_LUFT_DURCHFLUSS_130_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD176	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_2_LUFT_DURCHFLUSS_140_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD178	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_2_LUFT_DURCHFLUSS_150_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD180	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_3_LUFT_DURCHFLUSS_10_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD192	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_3_LUFT_DURCHFLUSS_20_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD194	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_3_LUFT_DURCHFLUSS_30_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD196	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_3_LUFT_DURCHFLUSS_40_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD198	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_3_LUFT_DURCHFLUSS_50_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD200	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_3_LUFT_DURCHFLUSS_60_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD202	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_3_LUFT_DURCHFLUSS_70_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD204	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_3_LUFT_DURCHFLUSS_80_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD206	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_3_LUFT_DURCHFLUSS_90_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD208	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_3_LUFT_DURCHFLUSS_100_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD210	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_3_LUFT_DURCHFLUSS_110_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD212	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_3_LUFT_DURCHFLUSS_120_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD214	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_3_LUFT_DURCHFLUSS_130_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD216	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_3_LUFT_DURCHFLUSS_140_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD218	0									0	0	0	0	0	0	0		
+pfp-SCA-S-KK-SOLLWERT_ZONE_3_LUFT_DURCHFLUSS_150_L		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCA	DB134,DD220	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_1_WASSER_GIESSBEGINN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD130	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_1_WASSER_GIESSENDE		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD138	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_1_WASSER_SPEED_0_2_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD14	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_1_WASSER_SPEED_0_3_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD16	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_1_WASSER_SPEED_0_4_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD18	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_1_WASSER_SPEED_0_5_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD20	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_1_WASSER_SPEED_0_6_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD22	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_1_WASSER_SPEED_0_7_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD24	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_1_WASSER_SPEED_0_8_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD26	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_1_WASSER_SPEED_0_9_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD28	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_1_WASSER_SPEED_1_0_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD30	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_1_WASSER_SPEED_1_1_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD32	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_1_WASSER_SPEED_1_2_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD34	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_1_WASSER_SPEED_1_3_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD36	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_1_WASSER_SPEED_1_4_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD38	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_1_WASSER_SPEED_1_5_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD40	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_2_WASSER_GIESSBEGINN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD132	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_2_WASSER_GIESSENDE		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD140	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_2_WASSER_SPEED_0_2_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD54	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_2_WASSER_SPEED_0_3_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD56	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_2_WASSER_SPEED_0_4_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD58	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_2_WASSER_SPEED_0_5_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD60	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_2_WASSER_SPEED_0_6_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD62	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_2_WASSER_SPEED_0_7_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD64	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_2_WASSER_SPEED_0_8_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD66	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_2_WASSER_SPEED_0_9_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD68	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_2_WASSER_SPEED_1_0_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD70	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_2_WASSER_SPEED_1_1_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD72	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_2_WASSER_SPEED_1_2_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD74	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_2_WASSER_SPEED_1_3_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD76	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_2_WASSER_SPEED_1_4_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD78	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_2_WASSER_SPEED_1_5_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD80	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_3_WASSER_GIESSBEGINN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD134	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_3_WASSER_GIESSENDE		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD142	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_3_WASSER_SPEED_0_2_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD94	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_3_WASSER_SPEED_0_3_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD96	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_3_WASSER_SPEED_0_4_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD98	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_3_WASSER_SPEED_0_5_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD100	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_3_WASSER_SPEED_0_6_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD102	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_3_WASSER_SPEED_0_7_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD104	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_3_WASSER_SPEED_0_8_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD106	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_3_WASSER_SPEED_0_9_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD108	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_3_WASSER_SPEED_1_0_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD110	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_3_WASSER_SPEED_1_1_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD112	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_3_WASSER_SPEED_1_2_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD114	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_3_WASSER_SPEED_1_3_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD116	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_3_WASSER_SPEED_1_4_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD118	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KK-SOLLWERT_ZONE_3_WASSER_SPEED_1_5_M_MIN		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD120	0									0	0	0	0	0	0	0		
+pfp-SCM-S-KUEHLKURVENNUMMER_1-4		Floating-point number 32-bit IEEE 754	4	FloatToS5Float	Common_PLC-1	SCM	DB134,DD4	0									0	0	0	0	0	0	0		
+pwd-L_W-I-NETTOGEWICHT_IN_GPOS_x10-KG		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	L_W	DB227,DW13	0									0	0	0	0	0	0	0		
+pwd-L_W-I-PFANNEN_NUMMER		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	L_W	DB227,DW27	0									0	0	0	0	0	0	0		
+pwd-L_W-I-TARAGEWVORGABE_VON_LEV2_x10-KG		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	L_W	DB227,DW16	0									0	0	0	0	0	0	0		
+pwd-LUB-I-SHMIERSYSTEM_4_DRUCK		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	LUB	DB227,DW40	0									0	0	0	0	0	0	0		
+pwd-OSZ-I-OSZILLIER_FREQUENZ_ISTWERT_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	OSZ	DB227,DW79	0									0	0	0	0	0	0	0		
+pwd-OSZ-I-OSZILLIER_FREQUENZ_ISTWERT_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	OSZ	DB227,DW129	0									0	0	0	0	0	0	0		
+pwd-OSZ-I-OSZILLIER_FREQUENZ_ISTWERT_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	OSZ	DB227,DW179	0									0	0	0	0	0	0	0		
+pwd-OSZ-I-OSZILLIER_FREQUENZ_ISTWERT_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	OSZ	DB227,DW229	0									0	0	0	0	0	0	0		
+pwd-OSZ-I-OSZILLIER_FREQUENZ_SOLLWERT_LEVEL_1_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	OSZ	DB227,DW80	0									0	0	0	0	0	0	0		
+pwd-OSZ-I-OSZILLIER_FREQUENZ_SOLLWERT_LEVEL_1_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	OSZ	DB227,DW130	0									0	0	0	0	0	0	0		
+pwd-OSZ-I-OSZILLIER_FREQUENZ_SOLLWERT_LEVEL_1_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	OSZ	DB227,DW180	0									0	0	0	0	0	0	0		
+pwd-OSZ-I-OSZILLIER_FREQUENZ_SOLLWERT_LEVEL_1_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	OSZ	DB227,DW230	0									0	0	0	0	0	0	0		
+pwd-PCC-I-AUSGLEICHSTANK_NIVEAU_0-30000_M3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCC	DB227,DW20	0									0	0	0	0	0	0	0		
+pwd-PCC-I-NOTKUEHLTANK_NIVEAU_0-30000_M3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCC	DB227,DW21	0									0	0	0	0	0	0	0		
+pwd-PCC-I-PRIMAER_KUEHLUNG_DIFFERENZTEMPERATUR_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCC	DB227,DW81	0									0	0	0	0	0	0	0		
+pwd-PCC-I-PRIMAR_KUEHLUNG_DIFFERENZTEMPERATUR_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCC	DB227,DW181	0									0	0	0	0	0	0	0		
+pwd-PCC-I-PRIMAR_KUHLUNG_DIFFERENZTEMPERATUR_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCC	DB227,DW131	0									0	0	0	0	0	0	0		
+pwd-PCC-I-PRIMAR_KUHLUNG_DIFFERENZTEMPERATUR_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCC	DB227,DW231	0									0	0	0	0	0	0	0		
+pwd-PCC-I-PRIMARKUHLUNG_EINLAUFTEMPERATUR		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCC	DB227,DW26	0									0	0	0	0	0	0	0		
+pwd-PCS-I-AKTUELLER_ISTWERT_REGLER_KOKILLE_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCS	DB227,DW54	0									0	0	0	0	0	0	0		
+pwd-PCS-I-AKTUELLER_ISTWERT_REGLER_KOKILLE_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCS	DB227,DW104	0									0	0	0	0	0	0	0		
+pwd-PCS-I-AKTUELLER_ISTWERT_REGLER_KOKILLE_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCS	DB227,DW154	0									0	0	0	0	0	0	0		
+pwd-PCS-I-AKTUELLER_ISTWERT_REGLER_KOKILLE_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCS	DB227,DW204	0									0	0	0	0	0	0	0		
+pwd-PCS-I-AKTUELLER_SOLLWERT_REGLER_KOKILLE_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCS	DB227,DW60	0									0	0	0	0	0	0	0		
+pwd-PCS-I-AKTUELLER_SOLLWERT_REGLER_KOKILLE_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCS	DB227,DW110	0									0	0	0	0	0	0	0		
+pwd-PCS-I-AKTUELLER_SOLLWERT_REGLER_KOKILLE_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCS	DB227,DW160	0									0	0	0	0	0	0	0		
+pwd-PCS-I-AKTUELLER_SOLLWERT_REGLER_KOKILLE_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCS	DB227,DW210	0									0	0	0	0	0	0	0		
+pwd-PCS-I-LEVEL_1_SOLLWERT_REGLER_KOKILLE_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCS	DB227,DW73	0									0	0	0	0	0	0	0		
+pwd-PCS-I-LEVEL_1_SOLLWERT_REGLER_KOKILLE_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCS	DB227,DW123	0									0	0	0	0	0	0	0		
+pwd-PCS-I-LEVEL_1_SOLLWERT_REGLER_KOKILLE_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCS	DB227,DW173	0									0	0	0	0	0	0	0		
+pwd-PCS-I-LEVEL_1_SOLLWERT_REGLER_KOKILLE_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	PCS	DB227,DW223	0									0	0	0	0	0	0	0		
+pwd-SCA-I-AKTUELLER_ISTWERT_REGLER_LUFT_ZONE_2_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW55	0									0	0	0	0	0	0	0		
+pwd-SCA-I-AKTUELLER_ISTWERT_REGLER_LUFT_ZONE_2_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW105	0									0	0	0	0	0	0	0		
+pwd-SCA-I-AKTUELLER_ISTWERT_REGLER_LUFT_ZONE_2_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW155	0									0	0	0	0	0	0	0		
+pwd-SCA-I-AKTUELLER_ISTWERT_REGLER_LUFT_ZONE_2_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW205	0									0	0	0	0	0	0	0		
+pwd-SCA-I-AKTUELLER_ISTWERT_REGLER_LUFT_ZONE_3_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW56	0									0	0	0	0	0	0	0		
+pwd-SCA-I-AKTUELLER_ISTWERT_REGLER_LUFT_ZONE_3_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW106	0									0	0	0	0	0	0	0		
+pwd-SCA-I-AKTUELLER_ISTWERT_REGLER_LUFT_ZONE_3_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW156	0									0	0	0	0	0	0	0		
+pwd-SCA-I-AKTUELLER_ISTWERT_REGLER_LUFT_ZONE_3_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW206	0									0	0	0	0	0	0	0		
+pwd-SCA-I-AKTUELLER_SOLLWERT_REGLER_LUFT_ZONE_2_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW61	0									0	0	0	0	0	0	0		
+pwd-SCA-I-AKTUELLER_SOLLWERT_REGLER_LUFT_ZONE_2_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW111	0									0	0	0	0	0	0	0		
+pwd-SCA-I-AKTUELLER_SOLLWERT_REGLER_LUFT_ZONE_2_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW161	0									0	0	0	0	0	0	0		
+pwd-SCA-I-AKTUELLER_SOLLWERT_REGLER_LUFT_ZONE_2_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW211	0									0	0	0	0	0	0	0		
+pwd-SCA-I-AKTUELLER_SOLLWERT_REGLER_LUFT_ZONE_3_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW62	0									0	0	0	0	0	0	0		
+pwd-SCA-I-AKTUELLER_SOLLWERT_REGLER_LUFT_ZONE_3_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW112	0									0	0	0	0	0	0	0		
+pwd-SCA-I-AKTUELLER_SOLLWERT_REGLER_LUFT_ZONE_3_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW162	0									0	0	0	0	0	0	0		
+pwd-SCA-I-AKTUELLER_SOLLWERT_REGLER_LUFT_ZONE_3_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW212	0									0	0	0	0	0	0	0		
+pwd-SCA-I-LEVEL_1_SOLLWERT_REGLER_LUFT_ZONE_2_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW74	0									0	0	0	0	0	0	0		
+pwd-SCA-I-LEVEL_1_SOLLWERT_REGLER_LUFT_ZONE_2_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW124	0									0	0	0	0	0	0	0		
+pwd-SCA-I-LEVEL_1_SOLLWERT_REGLER_LUFT_ZONE_2_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW174	0									0	0	0	0	0	0	0		
+pwd-SCA-I-LEVEL_1_SOLLWERT_REGLER_LUFT_ZONE_2_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW224	0									0	0	0	0	0	0	0		
+pwd-SCA-I-LEVEL_1_SOLLWERT_REGLER_LUFT_ZONE_3_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW75	0									0	0	0	0	0	0	0		
+pwd-SCA-I-LEVEL_1_SOLLWERT_REGLER_LUFT_ZONE_3_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW125	0									0	0	0	0	0	0	0		
+pwd-SCA-I-LEVEL_1_SOLLWERT_REGLER_LUFT_ZONE_3_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW175	0									0	0	0	0	0	0	0		
+pwd-SCA-I-LEVEL_1_SOLLWERT_REGLER_LUFT_ZONE_3_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCA	DB227,DW225	0									0	0	0	0	0	0	0		
+pwd-SCC-I-NOTKUEHLTANK_NIVEAU_0-30000_M3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCC	DB227,DW22	0									0	0	0	0	0	0	0		
+pwd-SCM-AKTUELLER_PRESSURE_WASSER_ZONE_1_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW97	0									0	0	0	0	0	0	0		
+pwd-SCM-AKTUELLER_PRESSURE_WASSER_ZONE_1_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW147	0									0	0	0	0	0	0	0		
+pwd-SCM-AKTUELLER_PRESSURE_WASSER_ZONE_1_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW197	0									0	0	0	0	0	0	0		
+pwd-SCM-AKTUELLER_PRESSURE_WASSER_ZONE_1_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW247	0									0	0	0	0	0	0	0		
+pwd-SCM-AKTUELLER_PRESSURE_WASSER_ZONE_2_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW98	0									0	0	0	0	0	0	0		
+pwd-SCM-AKTUELLER_PRESSURE_WASSER_ZONE_2_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW148	0									0	0	0	0	0	0	0		
+pwd-SCM-AKTUELLER_PRESSURE_WASSER_ZONE_2_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW198	0									0	0	0	0	0	0	0		
+pwd-SCM-AKTUELLER_PRESSURE_WASSER_ZONE_2_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW248	0									0	0	0	0	0	0	0		
+pwd-SCM-AKTUELLER_PRESSURE_WASSER_ZONE_3_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW99	0									0	0	0	0	0	0	0		
+pwd-SCM-AKTUELLER_PRESSURE_WASSER_ZONE_3_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW149	0									0	0	0	0	0	0	0		
+pwd-SCM-AKTUELLER_PRESSURE_WASSER_ZONE_3_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW199	0									0	0	0	0	0	0	0		
+pwd-SCM-AKTUELLER_PRESSURE_WASSER_ZONE_3_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW249	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_ISTWERT_REGLER_WASSER_ZONE_1_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW57	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_ISTWERT_REGLER_WASSER_ZONE_1_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW107	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_ISTWERT_REGLER_WASSER_ZONE_1_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW157	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_ISTWERT_REGLER_WASSER_ZONE_1_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW207	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_ISTWERT_REGLER_WASSER_ZONE_2_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW58	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_ISTWERT_REGLER_WASSER_ZONE_2_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW108	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_ISTWERT_REGLER_WASSER_ZONE_2_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW158	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_ISTWERT_REGLER_WASSER_ZONE_2_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW208	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_ISTWERT_REGLER_WASSER_ZONE_3_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW59	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_ISTWERT_REGLER_WASSER_ZONE_3_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW109	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_ISTWERT_REGLER_WASSER_ZONE_3_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW159	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_ISTWERT_REGLER_WASSER_ZONE_3_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW209	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_SOLLWERT_REGLER_WASSER_ZONE_1_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW63	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_SOLLWERT_REGLER_WASSER_ZONE_1_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW113	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_SOLLWERT_REGLER_WASSER_ZONE_1_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW163	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_SOLLWERT_REGLER_WASSER_ZONE_1_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW213	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_SOLLWERT_REGLER_WASSER_ZONE_2_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW64	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_SOLLWERT_REGLER_WASSER_ZONE_2_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW114	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_SOLLWERT_REGLER_WASSER_ZONE_2_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW164	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_SOLLWERT_REGLER_WASSER_ZONE_2_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW214	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_SOLLWERT_REGLER_WASSER_ZONE_3_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW65	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_SOLLWERT_REGLER_WASSER_ZONE_3_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW115	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_SOLLWERT_REGLER_WASSER_ZONE_3_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW165	0									0	0	0	0	0	0	0		
+pwd-SCM-I-AKTUELLER_SOLLWERT_REGLER_WASSER_ZONE_3_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW215	0									0	0	0	0	0	0	0		
+pwd-SCM-I-ANGEZEIGTE_KK-FORMAT		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW33	0									0	0	0	0	0	0	0		
+pwd-SCM-I-ANGEZEIGTE_KK-NR		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW34	0									0	0	0	0	0	0	0		
+pwd-SCM-I-COMPUTER_SOLLWERT_REGLER_WASSER_ZONE_1_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW67	0									0	0	0	0	0	0	0		
+pwd-SCM-I-COMPUTER_SOLLWERT_REGLER_WASSER_ZONE_1_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW117	0									0	0	0	0	0	0	0		
+pwd-SCM-I-COMPUTER_SOLLWERT_REGLER_WASSER_ZONE_1_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW167	0									0	0	0	0	0	0	0		
+pwd-SCM-I-COMPUTER_SOLLWERT_REGLER_WASSER_ZONE_1_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW217	0									0	0	0	0	0	0	0		
+pwd-SCM-I-COMPUTER_SOLLWERT_REGLER_WASSER_ZONE_2_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW68	0									0	0	0	0	0	0	0		
+pwd-SCM-I-COMPUTER_SOLLWERT_REGLER_WASSER_ZONE_2_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW118	0									0	0	0	0	0	0	0		
+pwd-SCM-I-COMPUTER_SOLLWERT_REGLER_WASSER_ZONE_2_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW168	0									0	0	0	0	0	0	0		
+pwd-SCM-I-COMPUTER_SOLLWERT_REGLER_WASSER_ZONE_2_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW218	0									0	0	0	0	0	0	0		
+pwd-SCM-I-COMPUTER_SOLLWERT_REGLER_WASSER_ZONE_3_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW69	0									0	0	0	0	0	0	0		
+pwd-SCM-I-COMPUTER_SOLLWERT_REGLER_WASSER_ZONE_3_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW119	0									0	0	0	0	0	0	0		
+pwd-SCM-I-COMPUTER_SOLLWERT_REGLER_WASSER_ZONE_3_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW169	0									0	0	0	0	0	0	0		
+pwd-SCM-I-COMPUTER_SOLLWERT_REGLER_WASSER_ZONE_3_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW219	0									0	0	0	0	0	0	0		
+pwd-SCM-I-KOKILLENFORMAT_ANZEIGE_SYMBOLISCHER_WERT_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW92	0									0	0	0	0	0	0	0		
+pwd-SCM-I-KOKILLENFORMAT_ANZEIGE_SYMBOLISCHER_WERT_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW142	0									0	0	0	0	0	0	0		
+pwd-SCM-I-KOKILLENFORMAT_ANZEIGE_SYMBOLISCHER_WERT_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW192	0									0	0	0	0	0	0	0		
+pwd-SCM-I-KOKILLENFORMAT_ANZEIGE_SYMBOLISCHER_WERT_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW242	0									0	0	0	0	0	0	0		
+pwd-SCM-I-LEVEL_1_SOLLWERT_REGLER_WASSER_ZONE_1_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW76	0									0	0	0	0	0	0	0		
+pwd-SCM-I-LEVEL_1_SOLLWERT_REGLER_WASSER_ZONE_1_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW126	0									0	0	0	0	0	0	0		
+pwd-SCM-I-LEVEL_1_SOLLWERT_REGLER_WASSER_ZONE_1_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW176	0									0	0	0	0	0	0	0		
+pwd-SCM-I-LEVEL_1_SOLLWERT_REGLER_WASSER_ZONE_1_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW226	0									0	0	0	0	0	0	0		
+pwd-SCM-I-LEVEL_1_SOLLWERT_REGLER_WASSER_ZONE_2_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW77	0									0	0	0	0	0	0	0		
+pwd-SCM-I-LEVEL_1_SOLLWERT_REGLER_WASSER_ZONE_2_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW127	0									0	0	0	0	0	0	0		
+pwd-SCM-I-LEVEL_1_SOLLWERT_REGLER_WASSER_ZONE_2_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW177	0									0	0	0	0	0	0	0		
+pwd-SCM-I-LEVEL_1_SOLLWERT_REGLER_WASSER_ZONE_2_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW227	0									0	0	0	0	0	0	0		
+pwd-SCM-I-LEVEL_1_SOLLWERT_REGLER_WASSER_ZONE_3_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW78	0									0	0	0	0	0	0	0		
+pwd-SCM-I-LEVEL_1_SOLLWERT_REGLER_WASSER_ZONE_3_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW128	0									0	0	0	0	0	0	0		
+pwd-SCM-I-LEVEL_1_SOLLWERT_REGLER_WASSER_ZONE_3_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW178	0									0	0	0	0	0	0	0		
+pwd-SCM-I-LEVEL_1_SOLLWERT_REGLER_WASSER_ZONE_3_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW228	0									0	0	0	0	0	0	0		
+pwd-SCM-I-QUALITATSNUMMER_WASSER_ZONE_1_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW84	0									0	0	0	0	0	0	0		
+pwd-SCM-I-QUALITATSNUMMER_WASSER_ZONE_1_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW134	0									0	0	0	0	0	0	0		
+pwd-SCM-I-QUALITATSNUMMER_WASSER_ZONE_1_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW184	0									0	0	0	0	0	0	0		
+pwd-SCM-I-QUALITATSNUMMER_WASSER_ZONE_1_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW234	0									0	0	0	0	0	0	0		
+pwd-SCM-I-QUALITATSNUMMER_WASSER_ZONE_2_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW85	0									0	0	0	0	0	0	0		
+pwd-SCM-I-QUALITATSNUMMER_WASSER_ZONE_2_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW135	0									0	0	0	0	0	0	0		
+pwd-SCM-I-QUALITATSNUMMER_WASSER_ZONE_2_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW185	0									0	0	0	0	0	0	0		
+pwd-SCM-I-QUALITATSNUMMER_WASSER_ZONE_2_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW235	0									0	0	0	0	0	0	0		
+pwd-SCM-I-QUALITATSNUMMER_WASSER_ZONE_3_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW86	0									0	0	0	0	0	0	0		
+pwd-SCM-I-QUALITATSNUMMER_WASSER_ZONE_3_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW136	0									0	0	0	0	0	0	0		
+pwd-SCM-I-QUALITATSNUMMER_WASSER_ZONE_3_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW186	0									0	0	0	0	0	0	0		
+pwd-SCM-I-QUALITATSNUMMER_WASSER_ZONE_3_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW236	0									0	0	0	0	0	0	0		
+pwd-SCM-I-QUALNUMMER_COMPUTER_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW83	0									0	0	0	0	0	0	0		
+pwd-SCM-I-QUALNUMMER_COMPUTER_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW133	0									0	0	0	0	0	0	0		
+pwd-SCM-I-QUALNUMMER_COMPUTER_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW183	0									0	0	0	0	0	0	0		
+pwd-SCM-I-QUALNUMMER_COMPUTER_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SCM	DB227,DW233	0									0	0	0	0	0	0	0		
+pwd-SDP-I-KALTSTRANGDRUCK_0-100_PROC		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SDP	DB227,DW23	0									0	0	0	0	0	0	0		
+pwd-SDP-I-WARMSTRANGDRUCK_0-100_PROC		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	SDP	DB227,DW24	0									0	0	0	0	0	0	0		
+pwd-STT-I-AKTUELLER_TRACKINGWERT_TRENDING_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	STT	DB227,DW50	0									0	0	0	0	0	0	0		
+pwd-STT-I-AKTUELLER_TRACKINGWERT_TRENDING_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	STT	DB227,DW100	0									0	0	0	0	0	0	0		
+pwd-STT-I-AKTUELLER_TRACKINGWERT_TRENDING_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	STT	DB227,DW150	0									0	0	0	0	0	0	0		
+pwd-STT-I-AKTUELLER_TRACKINGWERT_TRENDING_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	STT	DB227,DW200	0									0	0	0	0	0	0	0		
+pwd-STT-I-GIESSENDE_STRANG_1_CM		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	STT	DB227,DW70	0									0	0	0	0	0	0	0		
+pwd-STT-I-GIESSENDE_STRANG_2_CM		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	STT	DB227,DW120	0									0	0	0	0	0	0	0		
+pwd-STT-I-GIESSENDE_STRANG_3_CM		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	STT	DB227,DW170	0									0	0	0	0	0	0	0		
+pwd-STT-I-GIESSENDE_STRANG_4_CM		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	STT	DB227,DW220	0									0	0	0	0	0	0	0		
+pwd-STT-I-PFANNENWECHSEL_STRANG_1_CM		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	STT	DB227,DW82	0									0	0	0	0	0	0	0		
+pwd-STT-I-PFANNENWECHSEL_STRANG_2_CM		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	STT	DB227,DW132	0									0	0	0	0	0	0	0		
+pwd-STT-I-PFANNENWECHSEL_STRANG_3_CM		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	STT	DB227,DW182	0									0	0	0	0	0	0	0		
+pwd-STT-I-PFANNENWECHSEL_STRANG_4_CM		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	STT	DB227,DW232	0									0	0	0	0	0	0	0		
+pwd-T_W-I-VERTEILERGEWICHT_DES_TC_IN_GPOS_x10-KG		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	T_W	DB227,DW18	0									0	0	0	0	0	0	0		
+pwd-TCM-I-BSM_SCHNITTLAENGE_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW66	0									0	0	0	0	0	0	0		
+pwd-TCM-I-BSM_SCHNITTLAENGE_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW116	0									0	0	0	0	0	0	0		
+pwd-TCM-I-BSM_SCHNITTLAENGE_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW166	0									0	0	0	0	0	0	0		
+pwd-TCM-I-BSM_SCHNITTLAENGE_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW216	0									0	0	0	0	0	0	0		
+pwd-TCM-I-CAST_SPEED_MEASURING_ROLL_STRANG_1_CM-MIN		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW95	0									0	0	0	0	0	0	0		
+pwd-TCM-I-CAST_SPEED_MEASURING_ROLL_STRANG_2_CM-MIN		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW145	0									0	0	0	0	0	0	0		
+pwd-TCM-I-CAST_SPEED_MEASURING_ROLL_STRANG_3_CM-MIN		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW195	0									0	0	0	0	0	0	0		
+pwd-TCM-I-CAST_SPEED_MEASURING_ROLL_STRANG_4_CM-MIN		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW245	0									0	0	0	0	0	0	0		
+pwd-TCM-I-RESTLANGE_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW87	0									0	0	0	0	0	0	0		
+pwd-TCM-I-RESTLANGE_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW137	0									0	0	0	0	0	0	0		
+pwd-TCM-I-RESTLANGE_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW187	0									0	0	0	0	0	0	0		
+pwd-TCM-I-RESTLANGE_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW237	0									0	0	0	0	0	0	0		
+pwd-TCM-I-STRANG_LANGE_STRANG_1_[M]		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW89	0									0	0	0	0	0	0	0		
+pwd-TCM-I-STRANG_LANGE_STRANG_2_[M]		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW139	0									0	0	0	0	0	0	0		
+pwd-TCM-I-STRANG_LANGE_STRANG_3_[M]		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW189	0									0	0	0	0	0	0	0		
+pwd-TCM-I-STRANG_LANGE_STRANG_4_[M]		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW239	0									0	0	0	0	0	0	0		
+pwd-TCM-I-STRANG_LANGE_TEIL_2_CM_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW94	0									0	0	0	0	0	0	0		
+pwd-TCM-I-STRANG_LANGE_TEIL_2_CM_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW144	0									0	0	0	0	0	0	0		
+pwd-TCM-I-STRANG_LANGE_TEIL_2_CM_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW194	0									0	0	0	0	0	0	0		
+pwd-TCM-I-STRANG_LANGE_TEIL_2_CM_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TCM	DB227,DW244	0									0	0	0	0	0	0	0		
+pwd-TDT-I-VERTEILERTEMP_0-9999_GRAD_С		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TDT	DB227,DW25	0									0	0	0	0	0	0	0		
+pwd-TST-I-GIESSPIEGEL_ISTWERT_STRANG_1_MM		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TST	DB227,DW72	0									0	0	0	0	0	0	0		
+pwd-TST-I-GIESSPIEGEL_ISTWERT_STRANG_2_MM		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TST	DB227,DW122	0									0	0	0	0	0	0	0		
+pwd-TST-I-GIESSPIEGEL_ISTWERT_STRANG_3_MM		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TST	DB227,DW172	0									0	0	0	0	0	0	0		
+pwd-TST-I-GIESSPIEGEL_ISTWERT_STRANG_4_MM		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TST	DB227,DW222	0									0	0	0	0	0	0	0		
+pwd-TST-I-GIESSPIEGEL_SOLLWERT_STRANG_1_MM		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TST	DB227,DW90	0									0	0	0	0	0	0	0		
+pwd-TST-I-GIESSPIEGEL_SOLLWERT_STRANG_2_MM		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TST	DB227,DW140	0									0	0	0	0	0	0	0		
+pwd-TST-I-GIESSPIEGEL_SOLLWERT_STRANG_3_MM		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TST	DB227,DW190	0									0	0	0	0	0	0	0		
+pwd-TST-I-GIESSPIEGEL_SOLLWERT_STRANG_4_MM		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TST	DB227,DW240	0									0	0	0	0	0	0	0		
+pwd-TST-I-STOPFENPOSITION_WAGEN_1_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TST	DB227,DW88	0									0	0	0	0	0	0	0		
+pwd-TST-I-STOPFENPOSITION_WAGEN_1_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TST	DB227,DW138	0									0	0	0	0	0	0	0		
+pwd-TST-I-STOPFENPOSITION_WAGEN_1_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TST	DB227,DW188	0									0	0	0	0	0	0	0		
+pwd-TST-I-STOPFENPOSITION_WAGEN_1_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TST	DB227,DW238	0									0	0	0	0	0	0	0		
+pwd-TST-I-STOPFENPOSITION_WAGEN_2_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TST	DB227,DW91	0									0	0	0	0	0	0	0		
+pwd-TST-I-STOPFENPOSITION_WAGEN_2_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TST	DB227,DW141	0									0	0	0	0	0	0	0		
+pwd-TST-I-STOPFENPOSITION_WAGEN_2_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TST	DB227,DW191	0									0	0	0	0	0	0	0		
+pwd-TST-I-STOPFENPOSITION_WAGEN_2_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TST	DB227,DW241	0									0	0	0	0	0	0	0		
+pwd-WDR-I-GIESSGESCHWINDIGKEIT_STRANG_1_M-MIN		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	WDR	DB227,DW71	0									0	0	0	0	0	0	0		
+pwd-WDR-I-GIESSGESCHWINDIGKEIT_STRANG_2_M-MIN		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	WDR	DB227,DW121	0									0	0	0	0	0	0	0		
+pwd-WDR-I-GIESSGESCHWINDIGKEIT_STRANG_3_M-MIN		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	WDR	DB227,DW171	0									0	0	0	0	0	0	0		
+pwd-WDR-I-GIESSGESCHWINDIGKEIT_STRANG_4_M-MIN		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	WDR	DB227,DW221	0									0	0	0	0	0	0	0		
+pwd-WDR-I-STROMAUFNAHME_GRUPPE_1_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	WDR	DB227,DW51	0									0	0	0	0	0	0	0		
+pwd-WDR-I-STROMAUFNAHME_GRUPPE_1_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	WDR	DB227,DW101	0									0	0	0	0	0	0	0		
+pwd-WDR-I-STROMAUFNAHME_GRUPPE_1_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	WDR	DB227,DW151	0									0	0	0	0	0	0	0		
+pwd-WDR-I-STROMAUFNAHME_GRUPPE_1_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	WDR	DB227,DW201	0									0	0	0	0	0	0	0		
+pwd-WDR-I-STROMAUFNAHME_GRUPPE_2_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	WDR	DB227,DW52	0									0	0	0	0	0	0	0		
+pwd-WDR-I-STROMAUFNAHME_GRUPPE_2_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	WDR	DB227,DW102	0									0	0	0	0	0	0	0		
+pwd-WDR-I-STROMAUFNAHME_GRUPPE_2_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	WDR	DB227,DW152	0									0	0	0	0	0	0	0		
+pwd-WDR-I-STROMAUFNAHME_GRUPPE_2_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	WDR	DB227,DW202	0									0	0	0	0	0	0	0		
+pwd-WDR-I-SUMMENSTROM_AUFNAHME_STRANG_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	WDR	DB227,DW53	0									0	0	0	0	0	0	0		
+pwd-WDR-I-SUMMENSTROM_AUFNAHME_STRANG_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	WDR	DB227,DW103	0									0	0	0	0	0	0	0		
+pwd-WDR-I-SUMMENSTROM_AUFNAHME_STRANG_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	WDR	DB227,DW153	0									0	0	0	0	0	0	0		
+pwd-WDR-I-SUMMENSTROM_AUFNAHME_STRANG_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	WDR	DB227,DW203	0									0	0	0	0	0	0	0		
+Set_Velocity_Strang_1		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	Set_VC	DB225,DW185	0									0	0	0	0	0	0	0		
+Set_Velocity_Strang_2		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	Set_VC	DB225,DW205	0									0	0	0	0	0	0	0		
+Set_Velocity_Strang_3		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	Set_VC	DB225,DW225	0									0	0	0	0	0	0	0		
+Set_Velocity_Strang_4		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	Set_VC	DB225,DW245	0									0	0	0	0	0	0	0		
+Sirena		Binary Tag	1		Common_PLC-1	horn	 0 in  Word DB229,DW17	0									0	0	0	0	0	0	0		
+StopOS4		Binary Tag	1		Common_PLC-1	Alarms	 0 in  Word DB225,DW37	0									0	0	0	0	0	0	0		
+TCM_CORRECT_SPEED_STRANG1		Binary Tag	1		Common_PLC-1	TCM	13 in  Word DB229,DW50	0									0	0	0	0	0	0	0		
+TCM_CORRECT_SPEED_STRANG2		Binary Tag	1		Common_PLC-1	TCM	13 in  Word DB229,DW70	0									0	0	0	0	0	0	0		
+TCM_CORRECT_SPEED_STRANG3		Binary Tag	1		Common_PLC-1	TCM	13 in  Word DB229,DW90	0									0	0	0	0	0	0	0		
+TCM_CORRECT_SPEED_STRANG4		Binary Tag	1		Common_PLC-1	TCM	13 in  Word DB229,DW110	0									0	0	0	0	0	0	0		
+temper_PK_nepreriv_grad		Signed 16-bit value	2	ShortToSignedWord	Common_PLC-1	TDT	DB227,DW255	0									0	0	0	0	0	0	0		
+TPK_1_Casting_Position		Binary Tag	1		Common_PLC-1	TPK	 6 in  Word DB225,DW130	0									0	0	0	0	0	0	0		
+TPK_1_Fast_Backward_ON		Binary Tag	1		Common_PLC-1	TPK	 3 in  Word DB225,DW15	0									0	0	0	0	0	0	0		
+TPK_1_Fast_Forward_ON		Binary Tag	1		Common_PLC-1	TPK	 2 in  Word DB225,DW15	0									0	0	0	0	0	0	0		
+TPK_2_Casting_Position		Binary Tag	1		Common_PLC-1	TPK	 7 in  Word DB225,DW130	0									0	0	0	0	0	0	0		
+TPK_2_Fast_Backward_ON		Binary Tag	1		Common_PLC-1	TPK	 5 in  Word DB225,DW15	0									0	0	0	0	0	0	0		
+TPK_2_Fast_Forward_ON		Binary Tag	1		Common_PLC-1	TPK	 4 in  Word DB225,DW15	0									0	0	0	0	0	0	0		
+TPK1_OS1_1_emergency_stop		Binary Tag	1		Common_PLC-1	Alarms	 0 in  Word DB225,DW1	0									0	0	0	0	0	0	0		
+TPK2_OS1_4_emergency_stop		Binary Tag	1		Common_PLC-1	Alarms	 1 in  Word DB225,DW1	0									0	0	0	0	0	0	0		
+
